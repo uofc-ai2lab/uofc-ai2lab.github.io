@@ -33,7 +33,7 @@ Our research is focused on the development of responsible AI for multimodal medi
 
 **Mission and Values**
 
-1.Provide an equitable, diverse, inclusive, and accessible work environment to our trainees, making sure they will be well-positioned for success. If you think you are a good fit for our lab, we encourage you to reach out to us!
+1. Provide an equitable, diverse, inclusive, and accessible work environment to our trainees, making sure they will be well-positioned for success. If you think you are a good fit for our lab, we encourage you to reach out to us!
 
 2. Develop high-impact research in the fields of imaging/image analysis and artificial intelligence. Most of our work involves images, but we also have other interests.
 
