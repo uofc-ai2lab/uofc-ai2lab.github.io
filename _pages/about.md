@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+We are the Advanced Imaging and Artificial Intelligence Lab (AI2Lab) located at the University of Calgary, one of the fastest-growing universities in Canada in terms of research output and located in one of the cities with best quality of life in the world. We are at the Electrical and Software Engineering, and Biomedical Engineering Departments of the [https://schulich.ucalgary.ca/](Schulich School of Engineering). We are also affiliated with the [https://hbi.ucalgary.ca/](Hotchkiss Brain Institute), [https://mccaig.ucalgary.ca/](McCaig Institute), and [https://research4kids.ucalgary.ca/](Alberta Children's Hospital Research Institute).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our research is focused on the development of responsible AI for multimodal medical imaging applications. We are particularly intersted in studying brain and bone changes as we age and in the presence of disease. 
