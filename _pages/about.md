@@ -44,7 +44,7 @@ Our research is focused on the development of responsible AI for multimodal medi
 
 <p align="center">
 <iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=Bq1Epvz_RH8"
+src="https://www.youtube.com/embed/Bq1Epvz_RH8"
 frameborder="0"
 allowfullscreen>
 </iframe>
