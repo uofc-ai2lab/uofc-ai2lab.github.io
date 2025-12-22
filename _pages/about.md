@@ -40,3 +40,12 @@ Our research is focused on the development of responsible AI for multimodal medi
 3. We are committed to open science. Whenever possible, we make our data and code publicly available. Our group is part of the Calgary-Campinas open science initiative. 
 
 4. Give back to the community. As researchers, we feel that it is a duty to give back to the community. We organize free workshops on computer programming, image analysis and artificial intelligence. We strive to promote equity, diversity and inclusion in these workshops.
+
+
+<p align="center">
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=Bq1Epvz_RH8"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</p>
