@@ -1,6 +1,6 @@
 ---
 layout: page
-firstname: Mohamma
+firstname: Mohammad
 lastname: Sahnoon
 description: PhD Candidate (Winter 2023)
 img: assets/img/people/mohammad_sahnoon.jpg
