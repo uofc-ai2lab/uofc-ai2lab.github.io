@@ -9,9 +9,9 @@ profile:
   image: ai2lab_logo.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Schulich School of Engineering](https://schulich.ucalgary.ca/), [University of Calgary]([https://schulich.ucalgary.ca/](https://www.ucalgary.ca/))</p>
+    <p>2500 Universdity Dr NW</p>
+    <p>Calgary, Alberta T2N 1N4 </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
