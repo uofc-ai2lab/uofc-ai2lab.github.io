@@ -412,6 +412,11 @@ ninja.data = [{
           description: "PhD Candidate (Winter 2022)",
           section: "People",handler: () => {
               window.location.href = "/people/Hanna_Bugler.html";
+            },},{id: "people-mohammad-sahnoon",
+          title: 'Mohammad_sahnoon',
+          description: "PhD Candidate (Winter 2023)",
+          section: "People",handler: () => {
+              window.location.href = "/people/Mohammad_Sahnoon.html";
             },},{id: "people-roberto-souza",
           title: 'Roberto_souza',
           description: "Associate Professor - ESE",
