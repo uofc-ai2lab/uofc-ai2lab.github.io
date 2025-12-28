@@ -5,7 +5,8 @@ permalink: /people/
 # description: Lab Members
 nav: true
 nav_order: 3
-display_categories: [Faculty Members, Postdoctoral Fellows, PhD Students, MSc Students, Research Associates, Undergraduate Students, Alumni]
+#display_categories: [Faculty Members, Postdoctoral Fellows, PhD Students, MSc Students, Research Associates, Undergraduate Students, Alumni]
+display_categories: [Faculty Members, PhD Students]
 horizontal: false
 ---
 
