@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-people",
+          title: "people",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
@@ -37,21 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -414,7 +407,17 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-jacob-idoko-on-his-successfull-msc-defence",
           title: 'Congratulations to Jacob Idoko on his successfull MSc defence.',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "people-hanna-bugler",
+          title: 'Hanna_bugler',
+          description: "PhD Candidate (Winter 2022)",
+          section: "People",handler: () => {
+              window.location.href = "/people/Hanna_Bugler.html";
+            },},{id: "people-roberto-souza",
+          title: 'Roberto_souza',
+          description: "Associate Professor - ESE",
+          section: "People",handler: () => {
+              window.location.href = "/people/Roberto_souza.html";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
