@@ -6,7 +6,7 @@ permalink: /people/
 nav: true
 nav_order: 3
 #display_categories: [Faculty Members, Postdoctoral Fellows, PhD Students, MSc Students, Research Associates, Undergraduate Students, Alumni]
-display_categories: [Faculty Members, PhD Students]
+display_categories: [Postdoctoral Fellows, PhD Students]
 horizontal: false
 ---
 
