@@ -407,7 +407,12 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-jacob-idoko-on-his-successfull-msc-defence",
           title: 'Congratulations to Jacob Idoko on his successfull MSc defence.',
           description: "",
-          section: "News",},{id: "people-farzaneh-dehghani",
+          section: "News",},{id: "people-",
+          title: '',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/Arshin_Soltan.html";
+            },},{id: "people-farzaneh-dehghani",
           title: 'Farzaneh_dehghani',
           description: "PhD Candidate - BME",
           section: "People",handler: () => {
