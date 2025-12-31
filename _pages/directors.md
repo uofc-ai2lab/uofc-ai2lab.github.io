@@ -18,8 +18,8 @@ profiles:
       <p>123 856 Campus Pl NW</p>
       <p>Calgary, Alberta T2L 0Y2</p>
   - align: left
-    image: /people/roberto_souza.jpg
-    content: about_roberto.md
+    image: /people/mariana_bento.jpg
+    content: about_mariana.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>CCIT016</p>
