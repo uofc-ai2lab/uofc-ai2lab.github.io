@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /directors/
-title: faculty members
-description: members of the lab or group
+title: directors
+description: Directors of the AI2Lab.
 nav: true
 nav_order: 2
 
