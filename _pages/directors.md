@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /directors/
-title: directors
+title: Directors
 description: Directors of the AI2Lab.
 nav: true
 nav_order: 2
