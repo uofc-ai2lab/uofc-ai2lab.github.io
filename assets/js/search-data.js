@@ -417,11 +417,11 @@ ninja.data = [{
           description: "PhD Candidate (Winter 2023)",
           section: "People",handler: () => {
               window.location.href = "/people/Mohammad_Sahnoon.html";
-            },},{id: "people-roberto-souza",
-          title: 'Roberto_souza',
-          description: "Associate Professor - ESE",
+            },},{id: "people-nour-khalefa",
+          title: 'Nour_khalefa',
+          description: "PhD Candidate - Geomatics",
           section: "People",handler: () => {
-              window.location.href = "/people/Roberto_souza.html";
+              window.location.href = "/people/Nour_Khalefa.html";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
