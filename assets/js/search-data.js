@@ -409,7 +409,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "people-hanna-bugler",
           title: 'Hanna_bugler',
-          description: "PhD Candidate (Winter 2022)",
+          description: "PhD Candidate - BME",
           section: "People",handler: () => {
               window.location.href = "/people/Hanna_Bugler.html";
             },},{id: "people-mohammad-sahnoon",
