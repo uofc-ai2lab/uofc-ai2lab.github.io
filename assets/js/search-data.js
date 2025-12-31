@@ -407,7 +407,12 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-jacob-idoko-on-his-successfull-msc-defence",
           title: 'Congratulations to Jacob Idoko on his successfull MSc defence.',
           description: "",
-          section: "News",},{id: "people-hanna-bugler",
+          section: "News",},{id: "people-farzaneh-dehghani",
+          title: 'Farzaneh_dehghani',
+          description: "PhD Candidate - BME",
+          section: "People",handler: () => {
+              window.location.href = "/people/Farzaneh_Dehghani.html";
+            },},{id: "people-hanna-bugler",
           title: 'Hanna_bugler',
           description: "PhD Candidate - BME",
           section: "People",handler: () => {
