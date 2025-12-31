@@ -442,6 +442,11 @@ ninja.data = [{
           description: "Postdoctoral Fellow - BME",
           section: "People",handler: () => {
               window.location.href = "/people/Pedro_Paiva.html";
+            },},{id: "people-sussane-schmid",
+          title: 'Sussane_schmid',
+          description: "Postdoctoral Fellow - BME",
+          section: "People",handler: () => {
+              window.location.href = "/people/Sussane_Schmid.html";
             },},{id: "people-tasneem-nasser",
           title: 'Tasneem_nasser',
           description: "PhD Candidate - BME",
