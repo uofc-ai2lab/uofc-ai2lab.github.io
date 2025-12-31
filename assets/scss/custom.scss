@@ -1,0 +1,9 @@
+/* Normalize People profile images */
+.people .card img,
+.people .avatar img,
+.people img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
