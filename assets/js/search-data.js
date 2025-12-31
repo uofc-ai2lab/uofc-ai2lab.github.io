@@ -414,7 +414,7 @@ ninja.data = [{
               window.location.href = "/people/Hanna_Bugler.html";
             },},{id: "people-mohammad-sahnoon",
           title: 'Mohammad_sahnoon',
-          description: "PhD Candidate (Winter 2023)",
+          description: "PhD Candidate - ESE",
           section: "People",handler: () => {
               window.location.href = "/people/Mohammad_Sahnoon.html";
             },},{id: "people-nour-khalefa",
