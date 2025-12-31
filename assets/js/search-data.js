@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-directors",
-          title: "directors",
+          title: "Directors",
           description: "Directors of the AI2Lab.",
           section: "Navigation",
           handler: () => {
