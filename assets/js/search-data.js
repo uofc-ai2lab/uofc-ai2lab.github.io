@@ -422,6 +422,11 @@ ninja.data = [{
           description: "PhD Candidate - Geomatics",
           section: "People",handler: () => {
               window.location.href = "/people/Nour_Khalefa.html";
+            },},{id: "people-tasneem-nasser",
+          title: 'Tasneem_nasser',
+          description: "PhD Candidate - BME",
+          section: "People",handler: () => {
+              window.location.href = "/people/Tasneem_Nasser.html";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
