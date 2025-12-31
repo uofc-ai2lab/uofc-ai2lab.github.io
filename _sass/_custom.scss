@@ -1,6 +1,8 @@
-.people .grid img {
-  width: 160px;
-  height: 160px;
+/* Force consistent photo size on /people */
+.people img,
+.people .avatar img,
+.people .profile img {
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 50%;
 }
