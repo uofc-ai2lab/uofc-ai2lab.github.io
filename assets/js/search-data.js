@@ -437,6 +437,11 @@ ninja.data = [{
           description: "PhD Candidate - Geomatics",
           section: "People",handler: () => {
               window.location.href = "/people/Nour_Khalefa.html";
+            },},{id: "people-pedro-paiva",
+          title: 'Pedro_paiva',
+          description: "Postdoctoral Fellow - BME",
+          section: "People",handler: () => {
+              window.location.href = "/people/Pedro_Paiva.html";
             },},{id: "people-tasneem-nasser",
           title: 'Tasneem_nasser',
           description: "PhD Candidate - BME",
