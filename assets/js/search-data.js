@@ -472,9 +472,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-project-2-detection-of-regional-biomarkers-of-brain-ageing-using-magnetic-resonance-imaging",
+          title: 'Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging...',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
             },},{id: "projects-project-6",
