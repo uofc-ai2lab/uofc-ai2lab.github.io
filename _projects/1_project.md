@@ -8,21 +8,13 @@ category: work
 related_publications: true
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+Magnetic resonance (MR) imaging is an essential tool for diagnostics and health management.  Wait times are long and increasing for MR examinations in Canada, averaging approximately 9.3 weeks in 2019.  Long wait times adversely impact personalized healthcare by delaying subsequent health services, leading to late diagnosis, poorer patient outcomes, and increased cost to both individuals and the health care system.
 
+According to the 2019 “The Value of Radiology report,” the direct annual costs to the Canadian economy related to MR imaging diagnostics is $700M.  The indirect annual costs incurred due to excessive MR wait times are estimated to be an additional $700M.
+
+The time required to complete an MR exam often exceeds 45 minutes, but deep-learning-based image reconstruction methods have shown favourable results to reduce MR imaging examination times by reconstructing images from under-sampled acquisitions.  These sophisticated reconstruction methods can increase patient throughput and reduce wait times.  In practice, existing deep-learning models for MR reconstruction do not consider existing redundancies in the data, such as multi-sequence and multi-visit data (i.e., personalized data).  These models often do not generalize well between different scanners. Automated deep learning (AutoDL) provides a framework to develop algorithms capable of fine-tuning image reconstruction models to specific users and use-cases without the intervention of a data scientist. 
+
+This project will develop AutoDL reconstruction methods that incorporate redundancies in the data, such as past subject-specific information, to make MR diagnostics more efficient.  We propose developing a software application called MRIntelligence, which combines these innovations to reduce MR examination times by a factor of ten and to expedite scans' analysis, thus significantly improving personalized healthcare delivery and reducing MR-related expenses.
 
 
 <div class="row">
@@ -33,39 +25,3 @@ related_publications: true
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
