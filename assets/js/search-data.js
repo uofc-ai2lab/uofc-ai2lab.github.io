@@ -452,8 +452,8 @@ ninja.data = [{
           description: "PhD Candidate - BME",
           section: "People",handler: () => {
               window.location.href = "/people/Tasneem_Nasser.html";
-            },},{id: "projects-1-project",
-          title: '1_project',
+            },},{id: "projects-project-1-imri-integrated-magnetic-resonance-imaging",
+          title: 'Project 1: IMRI - Integrated Magnetic Resonance Imaging',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
