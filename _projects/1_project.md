@@ -19,9 +19,9 @@ This project will develop AutoDL reconstruction methods that incorporate redunda
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_contents/project01_figure.png" title="project 01 figure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Pilot results of a brain MR imaging exam accelerated by a factor of 20. On the top left, a conventional, deep-learning-based MR image reconstruction approach and its magnified residual map. In the bottom left, the iMRI reconstruction On the right, the fully sampled reconstruction reference. Higher SSIM and pSNR, and lower NRMSE correspond to higher-fidelity reconstructions.
 </div>
