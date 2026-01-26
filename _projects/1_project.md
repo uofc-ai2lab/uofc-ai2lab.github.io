@@ -10,7 +10,7 @@ related_publications: true
 
 Magnetic resonance (MR) imaging is an essential tool for diagnostics and health management.  Wait times are long and increasing for MR examinations in Canada, averaging approximately 9.3 weeks in 2019.  Long wait times adversely impact personalized healthcare by delaying subsequent health services, leading to late diagnosis, poorer patient outcomes, and increased cost to both individuals and the health care system.
 
-According to the 2019 “The Value of Radiology report,” the direct annual costs to the Canadian economy related to MR imaging diagnostics is $700M.  The indirect annual costs incurred due to excessive MR wait times are estimated to be an additional $700M.
+According to the 2019 “The Value of Radiology report,” the direct annual costs to the Canadian economy related to MR imaging diagnostics is \$700M.  The indirect annual costs incurred due to excessive MR wait times are estimated to be an additional \$700M.
 
 The time required to complete an MR exam often exceeds 45 minutes, but deep-learning-based image reconstruction methods have shown favourable results to reduce MR imaging examination times by reconstructing images from under-sampled acquisitions.  These sophisticated reconstruction methods can increase patient throughput and reduce wait times.  In practice, existing deep-learning models for MR reconstruction do not consider existing redundancies in the data, such as multi-sequence and multi-visit data (i.e., personalized data).  These models often do not generalize well between different scanners. Automated deep learning (AutoDL) provides a framework to develop algorithms capable of fine-tuning image reconstruction models to specific users and use-cases without the intervention of a data scientist. 
 
