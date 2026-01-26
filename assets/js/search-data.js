@@ -452,9 +452,9 @@ ninja.data = [{
           description: "PhD Candidate - BME",
           section: "People",handler: () => {
               window.location.href = "/people/Tasneem_Nasser.html";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-project-2",
