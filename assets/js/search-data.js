@@ -457,9 +457,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-project-2-detection-of-regional-biomarkers-of-brain-ageing-using-magnetic-resonance-imaging",
+          title: 'Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging...',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-project-3-with-very-long-name",
