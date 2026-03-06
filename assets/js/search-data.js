@@ -477,11 +477,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-2-detection-of-regional-biomarkers-of-brain-ageing-using-magnetic-resonance-imaging",
-          title: 'Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging...',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
             },},{
         id: 'social-cv',
         title: 'CV',
