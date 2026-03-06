@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging"
+title: "Project 3: Machine Learning FOR HETEROGENEOUS BRAIN MRI: BRIDGING THE GAP TO GENERALIZAble MODELS"
 description: 
 img: 
 importance: 1
@@ -8,20 +8,16 @@ category: work
 related_publications: true
 ---
 
-Global brain age prediction from MR images and its comparison with chronological age has proven to be a reliable biomarker for brain disorders, like Parkinson’s and Alzheimer’s disease, but also other conditions like Down’s Syndrome and HIV have been linked to the exacerbation of the brain ageing process.
+Magnetic resonance (MR) imaging has become a key technology for brain imaging, resulting in massive databases, rapidly increasing the need for big data analytics, robust pooling, and harmonization, especially for data acquired across diverse cohorts. A barrier to the success of these techniques is the inherent variation between image acquisition protocols and different equipment, resulting in a lack of reproducible results. It has been shown that even when care is taken to standardize acquisitions, changes in hardware, software, or protocol design can lead to differences in quantitative results and loss of consistency. As a result, the quantitative utility of MR in multisite or long-term studies is dramatically impacted.
 
-The brain ageing models first proposed used handcrafted features, such as volumes of cortical structures and image texture, to develop a regression model to estimate brain age. With the success and rapid growth of deep learning, brain age prediction models shifted towards using convolutional neural networks (CNNs) for the brain age prediction task. The advantages of CNNs are that they can learn the features directly from the data (i.e., no need to handcraft features), and these deep learning models often produce more accurate predictions than traditional methods. Several deep learning models report an average brain age prediction error < 2 years.
+Machine learning (ML) has been extensively investigated for MR imaging analysis with multiple goals, such as quantitative analysis of structures or abnormalities and progress evaluation over time. Yet only a limited number of applications are now in use outside the research environment. A key reason for that is the poor generalizability of the models to data from different sources or acquisition domains. Developing new methods to handle this diverse MR imaging data is crucial for achieving accurate models and broadening their usage. Our long-term research program goal is to tackle the current limitations of the broader use of ML for medical imaging, focusing on the challenges of conducting large and multisite studies, using data harmonization and domain adaptation strategies of ML models that allow generalization from one dataset to another, avoiding domain-specific decision-making. 
 
-Age-related brain changes are characterized by region-specific and nonlinear patterns of processes, such as cell growth and synaptic pruning, and widespread brain atrophy that happens during brain ageing. Although accurate deep-learning-based global brain age prediction models can indicate signs of accelerated brain ageing and brain disorders, they lack the spatial specificity to highlight which regions of the brain are the most affected.  
-
-The concept of regional brain age prediction based on MR image features is new, and it overcomes the limitations of having a single global index. The regional brain age prediction methodology proposed and investigated in this study is novel and will create an advanced paradigm for spatially resolving brain ageing mechanisms based on imaging features. This new paradigm will expand the field to new exciting directions that will allow us to understand better the normal brain ageing mechanisms and how different disorders affect the human brain.
-
-I anticipate that regional brain age predictions will be a superior biomarker compared to global brain age prediction across many disorders. The ability to detect regions of the brain that show signs of accelerated ageing will allow us to better understand the mechanism of disease, and to develop and verify the efficacy of new therapies and interventions that can counter the effects of accelerated ageing.
+I anticipate a significant improvement in the generalization capability of ML tools developed for brain MR imaging applications. My findings will significantly impact the research area by allowing the usage of such models in larger, heterogeneous datasets and best practices when translating learning from one application to another using the proposed data harmonization and domain adaptation strategies. While my short-term goal is to work with MR imaging, the proposed strategies would be substantial for translation to other applications for other medical images and other computer vision applications. 
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_contents/project02_figure.png" title="project 02 figure" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="" title="project 03 figure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
