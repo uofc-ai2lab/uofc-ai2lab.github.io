@@ -462,8 +462,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-2-detection-of-regional-biomarkers-of-brain-ageing-using-magnetic-resonance-imaging",
-          title: 'Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging...',
+            },},{id: "projects-project-3-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
+          title: 'Project 3: Machine Learning FOR HETEROGENEOUS BRAIN MRI: BRIDGING THE GAP TO GENERALIZAble...',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
