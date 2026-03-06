@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging"
+title: "Project 4: What goes where? A Garbage Classification system based on Images and Natural Language"
 description: 
 img: 
 importance: 1
@@ -8,15 +8,7 @@ category: work
 related_publications: true
 ---
 
-Global brain age prediction from MR images and its comparison with chronological age has proven to be a reliable biomarker for brain disorders, like Parkinson’s and Alzheimer’s disease, but also other conditions like Down’s Syndrome and HIV have been linked to the exacerbation of the brain ageing process.
-
-The brain ageing models first proposed used handcrafted features, such as volumes of cortical structures and image texture, to develop a regression model to estimate brain age. With the success and rapid growth of deep learning, brain age prediction models shifted towards using convolutional neural networks (CNNs) for the brain age prediction task. The advantages of CNNs are that they can learn the features directly from the data (i.e., no need to handcraft features), and these deep learning models often produce more accurate predictions than traditional methods. Several deep learning models report an average brain age prediction error < 2 years.
-
-Age-related brain changes are characterized by region-specific and nonlinear patterns of processes, such as cell growth and synaptic pruning, and widespread brain atrophy that happens during brain ageing. Although accurate deep-learning-based global brain age prediction models can indicate signs of accelerated brain ageing and brain disorders, they lack the spatial specificity to highlight which regions of the brain are the most affected.  
-
-The concept of regional brain age prediction based on MR image features is new, and it overcomes the limitations of having a single global index. The regional brain age prediction methodology proposed and investigated in this study is novel and will create an advanced paradigm for spatially resolving brain ageing mechanisms based on imaging features. This new paradigm will expand the field to new exciting directions that will allow us to understand better the normal brain ageing mechanisms and how different disorders affect the human brain.
-
-I anticipate that regional brain age predictions will be a superior biomarker compared to global brain age prediction across many disorders. The ability to detect regions of the brain that show signs of accelerated ageing will allow us to better understand the mechanism of disease, and to develop and verify the efficacy of new therapies and interventions that can counter the effects of accelerated ageing.
+Every year tons of garbage are inappropriately disposed of in the wrong trash bin causing a huge environmental footprint. Sorting the garbage properly across recyclable, compost and landfill trash bins is of uttermost importance to reduce this footprint. This project focuses on using image recognition and natural language processing for real-time classification of different types of garbage, so they can be correctly sorted for recycling, composting or landfill. The goal is to build a system in which the user can show an object to a camera or take a picture and optionally input some keywords that describe the object into a terminal or through voice recognition. Then, the system will tell the user in which bin the garbage should be disposed of, or if the user should take the garbage to a waste drop-off location. The system can also tell the user that the garbage can be taken to a recycling center for a refund. This is very common in the city of Calgary with the so-called “Bottle Depots”, where the user can recycle empty plastic/glass bottles, beer cans and drink packings, among other similar items. This system will help increase the percentage of garbage that’s recycled since throwing away recyclable garbage into a bin designed for non-recyclable items will cause it to end up in a landfill or a compost centre.
 
 
 <div class="row">
@@ -25,5 +17,23 @@ I anticipate that regional brain age predictions will be a superior biomarker co
     </div>
 </div>
 <div class="caption">
-    
+</div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe 
+        src="https://www.youtube.com/embed/aTJJy5-ZEaM"
+        title="Garbage Classification System Demo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius:8px;">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<div class="caption">
+Project demonstration video of the garbage classification system.
 </div>
