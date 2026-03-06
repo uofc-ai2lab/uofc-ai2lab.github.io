@@ -12,14 +12,6 @@ Every year tons of garbage are inappropriately disposed of in the wrong trash bi
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_contents/project02_figure.png" title="project 02 figure" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-</div>
-
-<div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe 
