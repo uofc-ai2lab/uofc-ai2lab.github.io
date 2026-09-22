@@ -407,7 +407,12 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-jacob-idoko-on-his-successfull-msc-defence",
           title: 'Congratulations to Jacob Idoko on his successfull MSc defence.',
           description: "",
-          section: "News",},{id: "people-arshin-soltan",
+          section: "News",},{id: "people-anik-das",
+          title: 'Anik_das',
+          description: "Research Assistant",
+          section: "People",handler: () => {
+              window.location.href = "/people/Anik_Das.html";
+            },},{id: "people-arshin-soltan",
           title: 'Arshin_soltan',
           description: "PhD Student - BME",
           section: "People",handler: () => {
