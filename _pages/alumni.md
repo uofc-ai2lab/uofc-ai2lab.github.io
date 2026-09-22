@@ -18,7 +18,7 @@ nav_order: 4
   <!-- Alumni: Amir Shamaei -->
   <div class="alumni-member">
     <div class="alumni-photo">
-      <img src="{{ '/assets/img/people/pedro_paiva.jpg' | relative_url }}" alt="Pedro Paiva">
+      <img src="{{ '/assets/img/alumni/Amir_Shamaei.jpg' | relative_url }}" alt="Amir Shamaei">
     </div>
 
     <div class="alumni-info">
