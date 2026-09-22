@@ -173,3 +173,118 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
+
+
+
+
+
+
+
+
+/* =========================================
+   AI2Lab Directors
+   ========================================= */
+
+.directors {
+  margin-top: 2rem;
+}
+
+.director-profile {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+  padding: 2.5rem 0;
+}
+
+.director-profile + .director-profile {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.director-photo {
+  text-align: center;
+}
+
+.director-photo img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.director-content h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.director-position {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.director-department {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.75;
+  margin-bottom: 1.5rem;
+}
+
+.director-bio {
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.director-bio p {
+  margin-bottom: 1rem;
+}
+
+.director-bio a {
+  font-weight: 500;
+}
+
+.director-contact {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.director-contact p {
+  margin: 0.15rem 0;
+}
+
+
+/* =========================================
+   Mobile
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  .director-profile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .director-photo {
+    text-align: center;
+  }
+
+  .director-photo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .director-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .director-bio {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+}
+
