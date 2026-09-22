@@ -9,7 +9,7 @@ department: Biomedical Engineering
 
 img: assets/img/people/susanne_schmid.jpg
 
-redirect: https://scholar.google.com/citations?user=mOJyKwoAAAAJ&hl=pt-BR
+redirect:
 linkedin_username: susanne-schmid-92459272
 
 category: Postdoctoral Fellows
