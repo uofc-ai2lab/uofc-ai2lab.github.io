@@ -27,7 +27,6 @@ $max-content-width: {{ site.max_width }};
 
 
 
-```css
 /* =========================================
    AI2Lab People
    ========================================= */
@@ -39,9 +38,7 @@ $max-content-width: {{ site.max_width }};
   border-bottom: 2px solid var(--global-divider-color);
 }
 
-
 /* Two-column layout */
-
 .people .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -49,27 +46,21 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 3rem;
 }
 
-
 /* Person card */
-
 .person-card {
   height: 100%;
   padding: 1.5rem;
   border-radius: 12px;
 }
 
-
 /* Header: photo + information */
-
 .person-header {
   display: flex;
   align-items: center;
   gap: 1.25rem;
 }
 
-
 /* Photo */
-
 .person-photo {
   flex: 0 0 120px;
   width: 120px;
@@ -81,9 +72,7 @@ $max-content-width: {{ site.max_width }};
   object-fit: cover;
 }
 
-
 /* Person information */
-
 .person-info {
   flex: 1;
   min-width: 0;
@@ -108,9 +97,7 @@ $max-content-width: {{ site.max_width }};
   line-height: 1.4;
 }
 
-
 /* Biography */
-
 .person-bio {
   margin-top: 1.25rem;
   padding: 1rem 0 0;
@@ -124,9 +111,7 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 0;
 }
 
-
 /* Social links */
-
 .person-links {
   margin-top: 1rem;
   padding-top: 0.8rem;
@@ -142,9 +127,7 @@ $max-content-width: {{ site.max_width }};
   text-decoration: none;
 }
 
-
 /* Mobile */
-
 @media (max-width: 900px) {
 
   .people .grid {
@@ -152,7 +135,6 @@ $max-content-width: {{ site.max_width }};
   }
 
 }
-
 
 @media (max-width: 500px) {
 
@@ -189,7 +171,5 @@ $max-content-width: {{ site.max_width }};
   .person-bio {
     font-size: 0.88rem;
   }
-
 }
-```
 
