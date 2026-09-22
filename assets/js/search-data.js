@@ -439,7 +439,7 @@ ninja.data = [{
               window.location.href = "/people/Nour_Khalefa.html";
             },},{id: "people-pedro-paiva",
           title: 'Pedro_paiva',
-          description: "Postdoctoral Fellow - BME",
+          description: "Postdoctoral Fellow",
           section: "People",handler: () => {
               window.location.href = "/people/Pedro_Paiva.html";
             },},{id: "people-sussane-schmid",
