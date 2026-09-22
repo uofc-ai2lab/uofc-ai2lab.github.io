@@ -432,11 +432,6 @@ ninja.data = [{
           description: "Postdoctoral Fellow",
           section: "People",handler: () => {
               window.location.href = "/people/Sussane_Schmid.html";
-            },},{id: "people-tasneem-nasser",
-          title: 'Tasneem_nasser',
-          description: "PhD Candidate - BME",
-          section: "People",handler: () => {
-              window.location.href = "/people/Tasneem_Nasser.html";
             },},{id: "projects-project-1-imri-integrated-magnetic-resonance-imaging",
           title: 'Project 1: IMRI - Integrated Magnetic Resonance Imaging',
           description: "",
