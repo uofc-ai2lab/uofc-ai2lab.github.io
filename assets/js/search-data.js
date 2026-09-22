@@ -414,7 +414,7 @@ ninja.data = [{
               window.location.href = "/people/Anik_Das.html";
             },},{id: "people-arshin-soltan",
           title: 'Arshin_soltan',
-          description: "PhD Student - BME",
+          description: "PhD Student",
           section: "People",handler: () => {
               window.location.href = "/people/Arshin_Soltan.html";
             },},{id: "people-farzaneh-dehghani",
