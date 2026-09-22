@@ -12,8 +12,6 @@ display_categories:
 horizontal: false
 ---
 
-# AI2Lab Members
-
 <div class="people">
 
   {%- for category in page.display_categories %}
