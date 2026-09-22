@@ -9,7 +9,7 @@ department: Biomedical Engineering
 
 img: assets/img/people/farzaneh_dehghani.jpg
 
-redirect: https://www.linkedin.com/in/farzaneh-dehghani/
+redirect: https://scholar.google.com/citations?hl=en&user=FyEH7EUAAAAJ
 linkedin_username: farzaneh-dehghani
 
 category: PhD Students
