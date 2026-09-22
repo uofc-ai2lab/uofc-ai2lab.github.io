@@ -34,6 +34,26 @@ nav_order: 4
   </div>
 
 
+  <!-- Alumni: Kaue Duarte -->
+  <div class="alumni-member">
+    <div class="alumni-photo">
+      <img src="{{ '/assets/img/alumni/Kaue Duarte.jpg' | relative_url }}" alt="Kaue Duarte">
+    </div>
+
+    <div class="alumni-info">
+      <h3 class="alumni-name">Kaue Duarte</h3>
+      <div class="alumni-dept">Biomedical Engineering</div>
+      <!-- <div class="alumni-years"></div> -->
+      <!-- <div class="alumni-current"><strong>Current:</strong></div> -->
+      <div class="alumni-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=Fr7gWkkAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://ca.linkedin.com/in/kauetnduarte" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+
+
 
 
 
