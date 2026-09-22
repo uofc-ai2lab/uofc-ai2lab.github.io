@@ -427,11 +427,6 @@ ninja.data = [{
           description: "PhD Candidate - ESE",
           section: "People",handler: () => {
               window.location.href = "/people/Mohammad_Sahnoon.html";
-            },},{id: "people-mumu-aktar",
-          title: 'Mumu_aktar',
-          description: "Postdoctoral Fellow - ESE",
-          section: "People",handler: () => {
-              window.location.href = "/people/Mumu_Aktar.html";
             },},{id: "people-pedro-paiva",
           title: 'Pedro_paiva',
           description: "Postdoctoral Fellow",
