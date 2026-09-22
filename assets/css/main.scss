@@ -23,3 +23,173 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+
+
+```css
+/* =========================================
+   AI2Lab People
+   ========================================= */
+
+.people .category {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--global-divider-color);
+}
+
+
+/* Two-column layout */
+
+.people .grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+
+/* Person card */
+
+.person-card {
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+
+/* Header: photo + information */
+
+.person-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+
+/* Photo */
+
+.person-photo {
+  flex: 0 0 120px;
+  width: 120px;
+}
+
+.person-photo img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+
+/* Person information */
+
+.person-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.person-name {
+  margin: 0 0 0.45rem;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.person-position {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.person-department {
+  font-size: 0.88rem;
+  opacity: 0.75;
+  line-height: 1.4;
+}
+
+
+/* Biography */
+
+.person-bio {
+  margin-top: 1.25rem;
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.person-bio p {
+  margin-bottom: 0;
+}
+
+
+/* Social links */
+
+.person-links {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.person-links a {
+  font-size: 1.15rem;
+  margin-right: 0.6rem;
+}
+
+.person-links a:hover {
+  text-decoration: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+  .people .grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .person-card {
+    padding: 1.2rem;
+  }
+
+  .person-header {
+    gap: 1rem;
+  }
+
+  .person-photo {
+    flex: 0 0 90px;
+    width: 90px;
+  }
+
+  .person-photo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .person-name {
+    font-size: 1.15rem;
+  }
+
+  .person-position {
+    font-size: 0.88rem;
+  }
+
+  .person-department {
+    font-size: 0.8rem;
+  }
+
+  .person-bio {
+    font-size: 0.88rem;
+  }
+
+}
+```
+
