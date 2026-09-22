@@ -422,6 +422,11 @@ ninja.data = [{
           description: "PhD Student",
           section: "People",handler: () => {
               window.location.href = "/people/Farzaneh_Dehghani.html";
+            },},{id: "people-joanna-lin",
+          title: 'Joanna_lin',
+          description: "MSc Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/Joanna_Lin.html";
             },},{id: "people-pedro-paiva",
           title: 'Pedro_paiva',
           description: "Postdoctoral Fellow",
