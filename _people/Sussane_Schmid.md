@@ -7,7 +7,7 @@ lastname: Schmid
 description: Postdoctoral Fellow
 department: Biomedical Engineering
 
-img: assets/img/people/Susanne_Schmid.jpg
+img: assets/img/people/susanne_schmid.jpg
 
 redirect: https://scholar.google.com/citations?user=mOJyKwoAAAAJ&hl=pt-BR
 linkedin_username: susanne-schmid-92459272
