@@ -419,7 +419,7 @@ ninja.data = [{
               window.location.href = "/people/Arshin_Soltan.html";
             },},{id: "people-farzaneh-dehghani",
           title: 'Farzaneh_dehghani',
-          description: "PhD Candidate - BME",
+          description: "PhD Student",
           section: "People",handler: () => {
               window.location.href = "/people/Farzaneh_Dehghani.html";
             },},{id: "people-pedro-paiva",
