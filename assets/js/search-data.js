@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-alumni",
+          title: "Alumni",
+          description: "Former members of the AI2Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/alumni/";
+          },
         },{id: "nav-contact",
           title: "Contact",
           description: "",
