@@ -15,6 +15,44 @@ nav_order: 4
   <h2 class="alumni-category">Former Postdoctoral Fellows</h2>
 
 
+  <!-- Alumni: Mumu Aktar -->
+  <div class="alumni-member">
+    <div class="alumni-photo">
+      <img src="{{ '/assets/img/alumni/Mumu_Aktar.jpg' | relative_url }}" alt="Mumu Aktar">
+    </div>
+
+    <div class="alumni-info">
+      <h3 class="alumni-name">Mumu Aktar</h3>
+      <div class="alumni-dept">Electrical and Software Engineering</div>
+      <!-- <div class="alumni-years"></div> -->
+      <!-- <div class="alumni-current"><strong>Current:</strong></div> -->
+      <div class="alumni-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=EBFetcQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://ca.linkedin.com/in/mumu-aktar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Alumni: Kaue Duarte -->
+  <div class="alumni-member">
+    <div class="alumni-photo">
+      <img src="{{ '/assets/img/alumni/Kaue_Duarte.jpg' | relative_url }}" alt="Kaue Duarte">
+    </div>
+
+    <div class="alumni-info">
+      <h3 class="alumni-name">Kaue Duarte</h3>
+      <div class="alumni-dept">Biomedical Engineering</div>
+      <!-- <div class="alumni-years"></div> -->
+      <!-- <div class="alumni-current"><strong>Current:</strong></div> -->
+      <div class="alumni-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=Fr7gWkkAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://ca.linkedin.com/in/kauetnduarte" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  
   <!-- Alumni: Amir Shamaei -->
   <div class="alumni-member">
     <div class="alumni-photo">
@@ -29,25 +67,6 @@ nav_order: 4
       <div class="alumni-links">
         <a href="https://scholar.google.com/citations?user=irO6ttAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
         <a href="https://ca.linkedin.com/in/amshamaei" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Alumni: Kaue Duarte -->
-  <div class="alumni-member">
-    <div class="alumni-photo">
-      <img src="{{ '/assets/img/alumni/Kaue Duarte.jpg' | relative_url }}" alt="Kaue Duarte">
-    </div>
-
-    <div class="alumni-info">
-      <h3 class="alumni-name">Kaue Duarte</h3>
-      <div class="alumni-dept">Biomedical Engineering</div>
-      <!-- <div class="alumni-years"></div> -->
-      <!-- <div class="alumni-current"><strong>Current:</strong></div> -->
-      <div class="alumni-links">
-        <a href="https://scholar.google.com/citations?hl=en&user=Fr7gWkkAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-        <a href="https://ca.linkedin.com/in/kauetnduarte" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </div>
   </div>
