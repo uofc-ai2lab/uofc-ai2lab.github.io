@@ -422,11 +422,6 @@ ninja.data = [{
           description: "PhD Candidate - BME",
           section: "People",handler: () => {
               window.location.href = "/people/Farzaneh_Dehghani.html";
-            },},{id: "people-hanna-bugler",
-          title: 'Hanna_bugler',
-          description: "PhD Candidate - BME",
-          section: "People",handler: () => {
-              window.location.href = "/people/Hanna_Bugler.html";
             },},{id: "people-pedro-paiva",
           title: 'Pedro_paiva',
           description: "Postdoctoral Fellow",
