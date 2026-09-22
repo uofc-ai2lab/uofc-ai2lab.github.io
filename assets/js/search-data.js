@@ -417,6 +417,11 @@ ninja.data = [{
           description: "PhD Student",
           section: "People",handler: () => {
               window.location.href = "/people/Arshin_Soltan.html";
+            },},{id: "people-artemy-gavrilov",
+          title: 'Artemy_gavrilov',
+          description: "MSc Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/Artemy_Gavrilov.html";
             },},{id: "people-farzaneh-dehghani",
           title: 'Farzaneh_dehghani',
           description: "PhD Student",
