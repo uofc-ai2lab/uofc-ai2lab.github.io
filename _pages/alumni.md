@@ -24,11 +24,11 @@ nav_order: 4
     <div class="alumni-info">
       <h3 class="alumni-name">Amir Shamaei</h3>
       <div class="alumni-dept">Electrical and Software Engineering</div>
-      <div class="alumni-years"></div>
-      <div class="alumni-current"><strong>Current:</strong></div>
+      <!-- <div class="alumni-years"></div> -->
+      <!-- <div class="alumni-current"><strong>Current:</strong></div> -->
       <div class="alumni-links">
-        <a href="https://scholar.google.com/citations?user=mOJyKwoAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-        <a href="https://www.linkedin.com/in/pedro-vv-paiva" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=irO6ttAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://ca.linkedin.com/in/amshamaei" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </div>
   </div>
