@@ -31,7 +31,7 @@ profiles:
       <p>CCIT016, 50 Collegiate Place NW</p>
       <p>Calgary, Alberta, T2L 0Y2</p>
     content: |
-      Dr. Mariana Bento is an Assistant Professor in the Department of Biomedical Engineering at the University of Calgary, with a joint appointment in the Department of Electrical and Software Engineering. Dr. Bento is a full member of the Hotchkiss Brain Institute and a recipient of funding from NSERC, MITACS, NFRF, Alberta Innovates, among other funding agencies.
+      Dr. Mariana Bento is an Associate Professor in the Department of Biomedical Engineering at the University of Calgary, with a joint appointment in the Department of Electrical and Software Engineering. Dr. Bento is a full member of the Hotchkiss Brain Institute and a recipient of funding from NSERC, MITACS, NFRF, Alberta Innovates, among other funding agencies.
 
       Dr. Bento received her B.Sc. in Teleinformatics Engineering from the Federal University of Ceará (2011), followed by M.Sc. (2013) and Ph.D. (2016) degrees in Computer Engineering from the University of Campinas (UNICAMP), Brazil. Prior to her faculty appointment, she completed a postdoctoral fellowship in the Departments of Radiology and Clinical Neurosciences at the University of Calgary, where she worked on advanced neuroimaging and machine learning methods in close collaboration with clinicians and neuroscientists.
 
