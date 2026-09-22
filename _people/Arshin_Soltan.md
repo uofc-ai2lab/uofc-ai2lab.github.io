@@ -9,7 +9,7 @@ department: Biomedical Engineering
 
 img: assets/img/people/arshin_soltan.jpg
 
-redirect: https://www.linkedin.com/in/arshin-soltan-bayazidi-43a286218/?originalSubdomain=ir
+redirect:
 linkedin_username: arshin-soltan-bayazidi-43a286218
 
 category: PhD Students
