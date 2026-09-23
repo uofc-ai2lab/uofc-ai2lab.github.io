@@ -2,7 +2,6 @@
 layout: page
 title: Directors
 permalink: /directors/
-description: Directors of the AI2Lab.
 nav: true
 nav_order: 2
 hide_title: true
@@ -10,42 +9,26 @@ hide_title: true
 
 <div class="directors">
 
-
-  <!-- =========================================
-       ROBERTO SOUZA
-       ========================================= -->
-
+  <!-- ========================================= ROBERTO SOUZA ========================================= -->
   <section class="director-profile">
-
     <div class="director-header">
-
       <div class="director-photo">
-        <img
-          src="{{ '/assets/img/people/roberto_souza.jpg' | relative_url }}"
-          alt="Dr. Roberto Souza"
-        >
+        <img src="{{ '/assets/img/people/roberto_souza.jpg' | relative_url }}" alt="Dr. Roberto Souza">
       </div>
 
       <div class="director-info">
-
         <h2>Dr. Roberto Souza</h2>
-
-        <div class="director-position">
-          Associate Professor
-        </div>
+        <div class="director-position">Associate Professor</div>
 
         <div class="director-department">
           Department of Electrical and Software Engineering<br>
           University of Calgary
         </div>
-
       </div>
-
     </div>
 
 
     <div class="director-bio">
-
       <p>
         Dr. Roberto Souza is an Associate Professor in the Department of Electrical and Software Engineering at the University of Calgary, Canada, where he has been a faculty member since July 2020. Dr. Souza received his B.Sc. in Electrical Engineering from the Federal University of Pará (2012), and his M.Sc. (2014) and Ph.D. (2017) in Computer Engineering from the University of Campinas (UNICAMP), Brazil.
       </p>
@@ -90,42 +73,28 @@ hide_title: true
 
 
 
-  <!-- =========================================
-       MARIANA BENTO
-       ========================================= -->
-
+  <!-- ========================================= MARIANA BENTO ========================================= -->
   <section class="director-profile">
-
     <div class="director-header">
 
       <div class="director-photo">
-        <img
-          src="{{ '/assets/img/people/mariana_bento.jpg' | relative_url }}"
-          alt="Dr. Mariana Bento"
-        >
+        <img src="{{ '/assets/img/people/mariana_bento.jpg' | relative_url }}" alt="Dr. Mariana Bento">
       </div>
 
       <div class="director-info">
-
         <h2>Dr. Mariana Bento</h2>
-
-        <div class="director-position">
-          Associate Professor
-        </div>
+        <div class="director-position">Associate Professor</div>
 
         <div class="director-department">
           Department of Biomedical Engineering<br>
           Department of Electrical and Software Engineering<br>
           University of Calgary
         </div>
-
       </div>
-
     </div>
 
 
     <div class="director-bio">
-
       <p>
         Dr. Mariana Bento is an Associate Professor in the Department of Biomedical Engineering at the University of Calgary, with a joint appointment in the Department of Electrical and Software Engineering. Dr. Bento is a full member of the Hotchkiss Brain Institute and a recipient of funding from NSERC, MITACS, NFRF, Alberta Innovates, among other funding agencies.
       </p>
@@ -169,7 +138,7 @@ hide_title: true
       <p>CCIT016, 50 Collegiate Place NW</p>
       <p>Calgary, Alberta, T2L 0Y2</p>
     </div>
-
+    
   </section>
-
+  
 </div>
