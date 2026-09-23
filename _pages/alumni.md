@@ -148,6 +148,38 @@ hide_title: true
 
       <div class="alumni-list">
 
+        <!-- Alumni: Natalia Dubljevic -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Natalia_Dubljevic.jpg' | relative_url }}" alt="Natalia Dubljevic"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Natalia Dubljevic</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=BevisaMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/natalia-dubljevic/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Alumni: Mahsa Dibaji -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mahsa_Dibaji.png' | relative_url }}" alt="Mahsa Dibaji"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Mahsa Dibaji</h3>
+            <div class="alumni-dept">Electrical and Software Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=OhCYnIcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/mahsadibaji/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
         <!-- Alumni: Abbas Omidi -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Abbas_Omidi.jpg' | relative_url }}" alt="Abbas Omidi"></div>
