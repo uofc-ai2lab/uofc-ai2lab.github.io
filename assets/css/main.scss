@@ -186,14 +186,10 @@ $max-content-width: {{ site.max_width }};
    ========================================= */
 
 .directors {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .director-profile {
-  display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
-  gap: 3rem;
-  align-items: start;
   padding: 2.5rem 0;
 }
 
@@ -201,35 +197,59 @@ $max-content-width: {{ site.max_width }};
   border-top: 1px solid var(--global-divider-color);
 }
 
+
+/* =========================================
+   Photo + Affiliation
+   ========================================= */
+
+.director-header {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+
 .director-photo {
-  text-align: center;
+  flex: 0 0 230px;
+  width: 230px;
 }
 
 .director-photo img {
-  width: 250px;
-  height: 250px;
+  display: block;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.director-content h2 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+.director-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.director-info h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.9rem;
+  line-height: 1.25;
 }
 
 .director-position {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 0.25rem;
+  line-height: 1.4;
+  margin-bottom: 0.35rem;
 }
 
 .director-department {
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.6;
   opacity: 0.75;
-  margin-bottom: 1.5rem;
 }
+
+
+/* =========================================
+   Biography
+   ========================================= */
 
 .director-bio {
   font-size: 0.96rem;
@@ -243,6 +263,11 @@ $max-content-width: {{ site.max_width }};
 .director-bio a {
   font-weight: 500;
 }
+
+
+/* =========================================
+   Contact
+   ========================================= */
 
 .director-contact {
   margin-top: 1.5rem;
@@ -258,35 +283,53 @@ $max-content-width: {{ site.max_width }};
 
 
 /* =========================================
-   Mobile
+   Tablet / Mobile
    ========================================= */
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 
   .director-profile {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
     padding: 2rem 0;
   }
 
+  .director-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   .director-photo {
-    text-align: center;
+    flex: none;
+    width: 190px;
   }
 
   .director-photo img {
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
   }
 
-  .director-content h2 {
-    font-size: 1.5rem;
+  .director-info h2 {
+    font-size: 1.6rem;
+  }
+
+  .director-position {
+    font-size: 1rem;
+  }
+
+  .director-department {
+    font-size: 0.9rem;
   }
 
   .director-bio {
     font-size: 0.92rem;
     line-height: 1.65;
   }
+
 }
+
+
+
 
 
 
