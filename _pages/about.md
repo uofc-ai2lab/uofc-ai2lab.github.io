@@ -33,10 +33,10 @@ AI2Lab is based in the Departments of Electrical and Software Engineering and Bi
 
 ## Mission & Values
 
-To develop responsible, high-impact artificial intelligence and medical imaging research while providing an equitable, diverse, inclusive, and accessible environment where trainees can thrive.
+- To develop responsible, high-impact artificial intelligence and medical imaging research while providing an equitable, diverse, inclusive, and accessible environment where trainees can thrive.
 
 
-To advance open, trustworthy, and clinically meaningful AI for healthcare while contributing to the broader research community through open science, education, and collaboration.
+- To advance open, trustworthy, and clinically meaningful AI for healthcare while contributing to the broader research community through open science, education, and collaboration.
 
 
-Whenever possible, we make our data, code, and research resources publicly available. We also organize free workshops in programming, image analysis, and artificial intelligence to support broader participation in research and technology.
+- Whenever possible, we make our data, code, and research resources publicly available. We also organize free workshops in programming, image analysis, and artificial intelligence to support broader participation in research and technology.
