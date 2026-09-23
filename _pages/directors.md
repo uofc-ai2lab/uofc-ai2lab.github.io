@@ -26,7 +26,7 @@ hide_title: true
         </div>
 
         <div class="director-office">
-          ICT 352C, 856 Campus Pl NW, Calgary, Alberta T2L 0Y2
+          Office: ICT 352C, 856 Campus Pl NW, Calgary, Alberta T2L 0Y2
         </div>
       </div>
     </div>
@@ -73,7 +73,7 @@ hide_title: true
         </div>
 
         <div class="director-office">
-          CCIT016, 50 Collegiate Place NW, Calgary, Alberta T2L 0Y2
+          Office: CCIT016, 50 Collegiate Place NW, Calgary, Alberta T2L 0Y2
         </div>
       </div>
     </div>
