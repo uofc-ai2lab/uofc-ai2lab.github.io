@@ -285,6 +285,16 @@ $max-content-width: {{ site.max_width }};
   opacity: 0.75;
 }
 
+.director-office {
+  margin-top: 0.9rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
 
 /* =========================================
    Biography
@@ -365,6 +375,9 @@ $max-content-width: {{ site.max_width }};
     line-height: 1.65;
   }
 
+  .director-office {
+    font-size: 0.85rem;
+  }
 }
 
 
