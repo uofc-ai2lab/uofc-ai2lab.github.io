@@ -4,7 +4,8 @@ permalink: /contactus/
 title: Contact
 description:
 nav: true
-nav_order: 10
+nav_order: 7
+hide_title: true
 ---
 
 ## Contacting us 
