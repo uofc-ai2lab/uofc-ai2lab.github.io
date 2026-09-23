@@ -22,87 +22,102 @@ layout: default
     </header>
   {% endunless %}
 
+
   <article>
 
-    <!-- Introduction + Profile -->
+    <div class="ai2lab-home-grid">
 
-    <div class="ai2lab-home-top">
+      <!-- =======================================
+           LEFT COLUMN
+           ======================================= -->
 
-      <div class="ai2lab-introduction">
-        {{ content }}
-      </div>
+      <main class="ai2lab-main-column">
 
-      {% if page.profile %}
+        {% if page.profile %}
 
-        <div class="ai2lab-profile">
+          <div class="ai2lab-profile">
 
-          {% if page.profile.image %}
+            {% if page.profile.image %}
 
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
 
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+
+              {%
+                include figure.liquid
+                loading="eager"
+                path=profile_image_path
+                class=profile_image_class
+                alt=page.profile.image
+                cache_bust=true
+              %}
+
             {% endif %}
 
-            {%
-              include figure.liquid
-              loading="eager"
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true
-            %}
+            {% if page.profile.more_info %}
+              <div class="more-info">
+                {{ page.profile.more_info }}
+              </div>
+            {% endif %}
 
-          {% endif %}
+          </div>
 
-          {% if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
-            </div>
-          {% endif %}
+        {% endif %}
 
+
+        <!-- All written content comes from about.md -->
+
+        <div class="ai2lab-content">
+          {{ content }}
         </div>
+
+      </main>
+
+
+      <!-- =======================================
+           RIGHT COLUMN — LATEST NEWS
+           ======================================= -->
+
+      {% if page.announcements and page.announcements.enabled %}
+
+        <aside class="ai2lab-news-column">
+
+          <div class="ai2lab-news-header">
+
+            <h2>Latest News</h2>
+
+          </div>
+
+
+          <div class="ai2lab-news-list">
+
+            {% include news.liquid limit=true %}
+
+          </div>
+
+
+          <div class="ai2lab-news-footer">
+
+            <a href="{{ '/news/' | relative_url }}">
+              View all news →
+            </a>
+
+          </div>
+
+        </aside>
 
       {% endif %}
 
     </div>
 
 
-    <!-- Latest News -->
-
-    {% if page.announcements and page.announcements.enabled %}
-
-      <section class="ai2lab-news">
-
-        <div class="ai2lab-section-header">
-
-          <h2>
-            <a href="{{ '/news/' | relative_url }}">
-              Latest News
-            </a>
-          </h2>
-
-          <a
-            class="ai2lab-view-all"
-            href="{{ '/news/' | relative_url }}"
-          >
-            View all news →
-          </a>
-
-        </div>
-
-        <div class="ai2lab-news-container">
-          {% include news.liquid limit=true %}
-        </div>
-
-      </section>
-
-    {% endif %}
-
-
-    <!-- YouTube Video -->
+    <!-- =========================================
+         YOUTUBE VIDEO
+         ========================================= -->
 
     <section class="ai2lab-video">
 
@@ -123,7 +138,9 @@ layout: default
     </section>
 
 
-    <!-- Social -->
+    <!-- =========================================
+         SOCIAL
+         ========================================= -->
 
     {% if page.social %}
 
