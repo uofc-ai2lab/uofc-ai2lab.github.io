@@ -6,7 +6,7 @@ nav_order: 1
 hide_title: true
 
 profile:
-  align: right
+  align: left
   image: ai2lab_logo.png
   image_circular: false
   more_info: >
@@ -19,7 +19,6 @@ social: true
 
 announcements:
   enabled: true
-  scrollable: true
   limit: 5
 
 latest_posts:
