@@ -146,6 +146,21 @@ nav_order: 4
       <h2>Former MSc Students</h2>
 
       <div class="alumni-list">
+      
+        <!-- Alumni: Parisa Saat -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Alexandre_Lopes.png' | relative_url }}" alt="Alexandre Lopes"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Alexandre Lopes</h3>
+            <div class="alumni-dept">Computer Science (University of Campinas)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=KeHisO8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/alexandreribeirolopes/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
 
 
 
@@ -153,8 +168,12 @@ nav_order: 4
     </section>
 
 
-    <!-- Former Summer Interns -->
 
+
+
+
+
+    <!-- Former Summer Interns -->
     <section class="alumni-category-panel" data-category="interns">
       <h2>Former Summer Interns</h2>
 
