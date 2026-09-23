@@ -300,6 +300,35 @@ $max-content-width: {{ site.max_width }};
    AI2Lab Alumni Page
    ========================================= */
 
+.alumni-simple-list {
+  max-height: 65vh;
+  overflow-y: auto;
+  padding-right: 1rem;
+  scrollbar-width: thin;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.alumni-simple-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.alumni-simple-item strong {
+  flex: 0 0 240px;
+  font-weight: 600;
+}
+
+.alumni-simple-item span {
+  opacity: 0.75;
+}
+
 .alumni-page {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
@@ -529,6 +558,22 @@ $max-content-width: {{ site.max_width }};
     font-size: 1.4rem;
   }
 
+  .alumni-simple-list {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .alumni-simple-item {
+    display: block;
+  }
+
+  .alumni-simple-item strong {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+
 }
 
 
@@ -566,3 +611,4 @@ $max-content-width: {{ site.max_width }};
     font-size: 0.8rem;
   }
 }
+
