@@ -3,7 +3,7 @@ layout: page
 title: People
 permalink: /people/
 nav: true
-nav_order: 3
+nav_order: 5
 hide_title: true
 display_categories:
   - Research Assistant
