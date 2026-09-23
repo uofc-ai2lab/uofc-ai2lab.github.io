@@ -5,6 +5,7 @@ permalink: /directors/
 description: Directors of the AI2Lab.
 nav: true
 nav_order: 2
+hide_title: true
 ---
 
 <div class="directors">
