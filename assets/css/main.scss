@@ -394,7 +394,6 @@ $max-content-width: {{ site.max_width }};
   height: 100%;
   padding: 1.5rem;
   border-radius: 12px;
-
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -415,14 +414,14 @@ $max-content-width: {{ site.max_width }};
 
 /* Photo */
 .person-photo {
-  flex: 0 0 120px;
-  width: 120px;
+  flex: 0 0 140px;
+  width: 140px;
 }
 
 .person-photo img {
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -441,7 +440,6 @@ $max-content-width: {{ site.max_width }};
 
 .person-position {
   margin-bottom: 0.25rem;
-
   font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.4;
@@ -491,7 +489,6 @@ $max-content-width: {{ site.max_width }};
 
 /* Tablet */
 @media (max-width: 900px) {
-
   .people .grid {
     grid-template-columns: 1fr;
   }
