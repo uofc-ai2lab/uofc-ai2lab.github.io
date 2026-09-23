@@ -86,17 +86,17 @@ nav_order: 4
 
       <div class="alumni-list">
       
-        <!-- Alumni: Mumu Aktar -->
+        <!-- Alumni: Alexandre Lopes -->
         <div class="alumni-member">
-          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mumu_Aktar.jpg' | relative_url }}" alt="Mumu Aktar"></div>
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mumu_Aktar.jpg' | relative_url }}" alt="Alexandre Lopes"></div>
 
           <div class="alumni-info">
-            <h3 class="alumni-name">Mumu Aktar</h3>
-            <div class="alumni-dept">Electrical and Software Engineering</div>
+            <h3 class="alumni-name">Alexandre Lopes</h3>
+            <div class="alumni-dept">Computer Science (University of Campinas)</div>
 
             <div class="alumni-links">
-              <a href="https://scholar.google.com/citations?hl=en&user=EBFetcQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a href="https://ca.linkedin.com/in/mumu-aktar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://scholar.google.com/citations?user=KeHisO8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/alexandreribeirolopes/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
