@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-nav: true
 nav_order: 1
 hide_title: true
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
