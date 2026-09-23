@@ -230,7 +230,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 .director-profile + .director-profile {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 2px solid var(--global-theme-color);
 }
 
 
@@ -397,7 +397,6 @@ $max-content-width: {{ site.max_width }};
   overflow-y: auto;
   padding-right: 1rem;
   scrollbar-width: thin;
-
   display: flex;
   flex-direction: column;
 }
@@ -451,7 +450,6 @@ $max-content-width: {{ site.max_width }};
 
 
 /* Category buttons */
-
 .alumni-tab {
   display: block;
   width: 100%;
@@ -502,7 +500,7 @@ $max-content-width: {{ site.max_width }};
   padding-bottom: 0.7rem;
   font-size: 1.6rem;
   font-weight: 600;
-  border-bottom: 2px solid var(--global-divider-color);
+  border-bottom: 2px solid var(--global-theme-color);
 }
 
 
