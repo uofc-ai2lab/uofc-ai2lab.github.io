@@ -148,6 +148,70 @@ hide_title: true
 
       <div class="alumni-list">
 
+        <!-- Alumni: Mansi Singhal -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mansi_Singhal.png' | relative_url }}" alt="Mansi Singhal"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Mansi Singhal</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=QXwhhCoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Alumni: Brooke Kindleman -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Brooke_Kindleman.png' | relative_url }}" alt="Brooke Kindleman"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Brooke Kindleman</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=Uh_zgikAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/brooke-kindleman/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Alumni: Zeyad Khaled Samir -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Zeyad_Khaled_Samir.png' | relative_url }}" alt="Zeyad Khaled Samir"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Zeyad Khaled Samir</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=NuEeZwEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/zeyad-khaled/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Alumni: Saad Ashraf -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Saad_Ashraf.jpg' | relative_url }}" alt="Saad Ashraf"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Saad Ashraf</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=QeWqb7gAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/saadashraf111/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
         <!-- Alumni: Natalia Dubljevic -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Natalia_Dubljevic.jpg' | relative_url }}" alt="Natalia Dubljevic"></div>
