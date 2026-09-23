@@ -246,15 +246,16 @@ $max-content-width: {{ site.max_width }};
 }
 
 .director-photo {
-  flex: 0 0 230px;
-  width: 230px;
+  flex: 0 0 280px;
+  width: 280px;
 }
 
 .director-photo img {
   display: block;
-  width: 230px;
-  height: 230px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
+  object-position: center top;
   border-radius: 8px;
 }
 
