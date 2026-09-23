@@ -1,80 +1,235 @@
 ---
 layout: default
 ---
+
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+
+  {% unless page.hide_title %}
+    <header class="post-header">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span>
+          {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+
+      {% if page.subtitle %}
+        <p class="desc">{{ page.subtitle }}</p>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+    </header>
+  {% endunless %}
+
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+
+    <!-- =========================================
+         INTRODUCTION + PROFILE
+         ========================================= -->
+
+    <div class="ai2lab-home-top">
+
+      <!-- Introduction -->
+
+      <div class="ai2lab-introduction">
+
+        {{ content }}
+
+      </div>
+
+
+      <!-- Logo + Address -->
+
+      {% if page.profile %}
+
+        <div class="ai2lab-profile">
+
+          {% if page.profile.image %}
+
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+
+            {%
+              include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image
+              cache_bust=true
+            %}
+
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+
+          {% if page.profile.more_info %}
+
+            <div class="more-info">
+              {{ page.profile.more_info }}
+            </div>
+
+          {% endif %}
+
+        </div>
+
+      {% endif %}
+
+    </div>
+
+
+    <!-- =========================================
+         MISSION & VISION + LATEST NEWS
+         ========================================= -->
+
+    <div class="ai2lab-info-grid">
+
+
+      <!-- Mission & Vision -->
+
+      <section class="ai2lab-mission">
+
+        <h2>Mission &amp; Vision</h2>
+
+
+        <div class="mission-item">
+
+          <h3>Mission</h3>
+
+          <p>
+            To develop responsible, high-impact artificial intelligence
+            and medical imaging research while providing an equitable,
+            diverse, inclusive, and accessible environment where trainees
+            can thrive.
+          </p>
+
+        </div>
+
+
+        <div class="mission-item">
+
+          <h3>Vision</h3>
+
+          <p>
+            To advance open, trustworthy, and clinically meaningful AI
+            for healthcare while contributing to the broader research
+            community through open science, education, and collaboration.
+          </p>
+
+        </div>
+
+
+        <div class="mission-item">
+
+          <h3>Open Science &amp; Community</h3>
+
+          <p>
+            Whenever possible, we make our data, code, and research
+            resources publicly available. We also organize free workshops
+            in programming, image analysis, and artificial intelligence
+            to support broader participation in research and technology.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      <!-- Latest News -->
+
+      {% if page.announcements and page.announcements.enabled %}
+
+        <section class="ai2lab-news">
+
+          <div class="ai2lab-section-header">
+
+            <h2>
+              <a href="{{ '/news/' | relative_url }}">
+                Latest News
+              </a>
+            </h2>
+
+            <a
+              class="ai2lab-view-all"
+              href="{{ '/news/' | relative_url }}"
+            >
+              View all news →
+            </a>
+
+          </div>
+
+
+          <div class="ai2lab-news-container">
+
+            {% include news.liquid limit=true %}
+
+          </div>
+
+        </section>
+
+      {% endif %}
+
+    </div>
+
+
+    <!-- =========================================
+         YOUTUBE VIDEO
+         ========================================= -->
+
+    <section class="ai2lab-video">
+
+      <h2>AI2Lab</h2>
+
+      <div class="ai2lab-video-container">
+
+        <iframe
+          src="https://www.youtube.com/embed/Bq1Epvz_RH8"
+          title="AI2Lab"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    </section>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+    <!-- =========================================
+         SOCIAL LINKS
+         ========================================= -->
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
     {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+      <div class="social">
+
+        <div class="contact-icons">
+          {% include social.liquid %}
+        </div>
+
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
+
       </div>
+
     {% endif %}
+
+
+    <!-- =========================================
+         NEWSLETTER
+         ========================================= -->
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+
       {% include newsletter.liquid center=true %}
+
     {% endif %}
+
   </article>
+
 </div>
