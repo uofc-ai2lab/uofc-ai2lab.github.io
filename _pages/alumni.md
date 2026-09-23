@@ -397,14 +397,39 @@ hide_title: true
 
 
 
-    <!-- Former Summer Interns -->
+    <!-- =====Former Summer Interns===== -->
     <section class="alumni-category-panel" data-category="interns">
       <h2>Former Summer Interns</h2>
 
-      <div class="alumni-list">
-
-        
-
+      <div class="alumni-simple-list">
+        <div class="alumni-simple-item"><strong>Caitlyn Lee</strong><span>University of Calgary — Summer 2025</span></div>
+        <div class="alumni-simple-item"><strong>Natalia Romero</strong><span>MITACS exchange student — Summer 2025</span></div>
+        <div class="alumni-simple-item"><strong>Aminreza Abbasi</strong><span>Summer Student — Summer 2024</span></div>
+        <div class="alumni-simple-item"><strong>Daniel Lee</strong><span>Summer Student — Summer 2024</span></div>
+        <div class="alumni-simple-item"><strong>Adrian Thereparambil</strong><span>MITACS exchange student — Summer 2024</span></div>
+        <div class="alumni-simple-item"><strong>Poulami Basu</strong><span>MITACS exchange student — Summer 2024</span></div>
+        <div class="alumni-simple-item"><strong>Swastik Mukherjee</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Yogesh Chawla</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Shannon Wong</strong><span>Summer Student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Mansi Singhal</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Timothy Thomas George</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Armin Sandhu</strong><span>Summer Student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Akhil Nair</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Muhammad Athar Ganaie</strong><span>MITACS exchange student — Summer 2022</span></div>
+        <div class="alumni-simple-item"><strong>Muhammad Yusuf Hassan</strong><span>MITACS exchange student — Summer 2022</span></div>
+        <div class="alumni-simple-item"><strong>Daniel Austin</strong><span>Summer Student — Summer 2022</span></div>
+        <div class="alumni-simple-item"><strong>Keilan Pieper</strong><span>BME Undergraduate thesis — Fall 2021 &amp; Winter 2022</span></div>
+        <div class="alumni-simple-item"><strong>Jeffrey Roszell</strong><span>BME Undergraduate thesis — Fall 2021 &amp; Winter 2022</span></div>
+        <div class="alumni-simple-item"><strong>Jason Xu</strong><span>BME Undergraduate thesis — Fall 2021 &amp; Winter 2022</span></div>
+        <div class="alumni-simple-item"><strong>Avnnet Gill</strong><span>BME Undergraduate thesis — Winter 2022</span></div>
+        <div class="alumni-simple-item"><strong>Sharar Sifat</strong><span>Physics Undergraduate research — Winter 2022</span></div>
+        <div class="alumni-simple-item"><strong>Jeremy Bilic</strong><span>BME Undergraduate thesis — Fall 2021</span></div>
+        <div class="alumni-simple-item"><strong>Harshal Patel</strong><span>Summer Student — Summer 2021</span></div>
+        <div class="alumni-simple-item"><strong>Maheen Hossain</strong><span>Summer Student — Summer 2021</span></div>
+        <div class="alumni-simple-item"><strong>Lucas Ion</strong><span>Summer Student — Summer 2021</span></div>
+        <div class="alumni-simple-item"><strong>Deborah Martinuzzi</strong><span>Summer Student — Summer 2021</span></div>
+        <div class="alumni-simple-item"><strong>Wafa Anam</strong><span>BME Undergraduate thesis — Fall 2020</span></div>
+        <div class="alumni-simple-item"><strong>Eric Fung</strong><span>BME Undergraduate thesis — Fall 2020</span></div>
       </div>
     </section>
 
