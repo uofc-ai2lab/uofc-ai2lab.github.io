@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 hide_title: true
 display_categories:
-  - Research Assistant
+  - Staff
   - Postdoctoral Fellows
   - PhD Students
   - MSc Students
