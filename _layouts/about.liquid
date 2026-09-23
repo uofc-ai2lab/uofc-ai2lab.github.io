@@ -22,25 +22,15 @@ layout: default
     </header>
   {% endunless %}
 
-
   <article>
 
-    <!-- =========================================
-         INTRODUCTION + PROFILE
-         ========================================= -->
+    <!-- Introduction + Profile -->
 
     <div class="ai2lab-home-top">
 
-      <!-- Introduction -->
-
       <div class="ai2lab-introduction">
-
         {{ content }}
-
       </div>
-
-
-      <!-- Logo + Address -->
 
       {% if page.profile %}
 
@@ -68,11 +58,9 @@ layout: default
           {% endif %}
 
           {% if page.profile.more_info %}
-
             <div class="more-info">
               {{ page.profile.more_info }}
             </div>
-
           {% endif %}
 
         </div>
@@ -82,103 +70,39 @@ layout: default
     </div>
 
 
-    <!-- =========================================
-         MISSION & VISION + LATEST NEWS
-         ========================================= -->
+    <!-- Latest News -->
 
-    <div class="ai2lab-info-grid">
+    {% if page.announcements and page.announcements.enabled %}
 
+      <section class="ai2lab-news">
 
-      <!-- Mission & Vision -->
+        <div class="ai2lab-section-header">
 
-      <section class="ai2lab-mission">
+          <h2>
+            <a href="{{ '/news/' | relative_url }}">
+              Latest News
+            </a>
+          </h2>
 
-        <h2>Mission &amp; Vision</h2>
-
-
-        <div class="mission-item">
-
-          <h3>Mission</h3>
-
-          <p>
-            To develop responsible, high-impact artificial intelligence
-            and medical imaging research while providing an equitable,
-            diverse, inclusive, and accessible environment where trainees
-            can thrive.
-          </p>
+          <a
+            class="ai2lab-view-all"
+            href="{{ '/news/' | relative_url }}"
+          >
+            View all news →
+          </a>
 
         </div>
 
-
-        <div class="mission-item">
-
-          <h3>Vision</h3>
-
-          <p>
-            To advance open, trustworthy, and clinically meaningful AI
-            for healthcare while contributing to the broader research
-            community through open science, education, and collaboration.
-          </p>
-
-        </div>
-
-
-        <div class="mission-item">
-
-          <h3>Open Science &amp; Community</h3>
-
-          <p>
-            Whenever possible, we make our data, code, and research
-            resources publicly available. We also organize free workshops
-            in programming, image analysis, and artificial intelligence
-            to support broader participation in research and technology.
-          </p>
-
+        <div class="ai2lab-news-container">
+          {% include news.liquid limit=true %}
         </div>
 
       </section>
 
-
-      <!-- Latest News -->
-
-      {% if page.announcements and page.announcements.enabled %}
-
-        <section class="ai2lab-news">
-
-          <div class="ai2lab-section-header">
-
-            <h2>
-              <a href="{{ '/news/' | relative_url }}">
-                Latest News
-              </a>
-            </h2>
-
-            <a
-              class="ai2lab-view-all"
-              href="{{ '/news/' | relative_url }}"
-            >
-              View all news →
-            </a>
-
-          </div>
+    {% endif %}
 
 
-          <div class="ai2lab-news-container">
-
-            {% include news.liquid limit=true %}
-
-          </div>
-
-        </section>
-
-      {% endif %}
-
-    </div>
-
-
-    <!-- =========================================
-         YOUTUBE VIDEO
-         ========================================= -->
+    <!-- YouTube Video -->
 
     <section class="ai2lab-video">
 
@@ -199,9 +123,7 @@ layout: default
     </section>
 
 
-    <!-- =========================================
-         SOCIAL LINKS
-         ========================================= -->
+    <!-- Social -->
 
     {% if page.social %}
 
@@ -220,14 +142,8 @@ layout: default
     {% endif %}
 
 
-    <!-- =========================================
-         NEWSLETTER
-         ========================================= -->
-
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-
       {% include newsletter.liquid center=true %}
-
     {% endif %}
 
   </article>
