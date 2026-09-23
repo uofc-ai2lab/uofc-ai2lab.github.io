@@ -10,9 +10,11 @@ profile:
   image: ai2lab_logo.png
   image_circular: false
   more_info: >
-    <p>Schulich School of Engineering, University of Calgary</p>
-    <p>2500 University Dr NW</p>
-    <p>Calgary, Alberta T2N 1N4</p>
+    <p>
+      Schulich School of Engineering, University of Calgary
+      2500 University Dr NW
+      Calgary, Alberta T2N 1N4
+    </p>
 
 selected_papers: false
 social: true
