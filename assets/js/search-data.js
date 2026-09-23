@@ -397,11 +397,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
             },},{id: "news-congratulations-to-tasneem-nasser-on-receiving-the-2025-bme-research-excellence-award",
           title: 'Congratulations to Tasneem Nasser on receiving the 2025 BME Research Excellence Award.',
           description: "",
