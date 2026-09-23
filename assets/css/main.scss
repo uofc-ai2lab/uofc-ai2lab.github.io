@@ -296,35 +296,104 @@ $max-content-width: {{ site.max_width }};
 
 
 
-
 /* =========================================
-   AI2Lab Alumni
+   AI2Lab Alumni Page
    ========================================= */
 
-.alumni {
+.alumni-page {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 2.5rem;
   margin-top: 1.5rem;
 }
 
 
 /* =========================================
-   Alumni Category
+   Left Sidebar
    ========================================= */
 
-.alumni-category {
-  margin-top: 3rem;
-  margin-bottom: 0;
+.alumni-sidebar {
+  position: sticky;
+  top: 90px;
+  align-self: start;
+  padding-right: 1.5rem;
+  border-right: 1px solid var(--global-divider-color);
+}
 
-  padding-bottom: 0.65rem;
+.alumni-sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
 
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.3;
+}
 
+
+/* Category buttons */
+
+.alumni-tab {
+  display: block;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 0.25rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.alumni-tab:hover {
+  background-color: var(--global-code-bg-color);
+}
+
+.alumni-tab.active {
+  background-color: var(--global-theme-color);
+  color: white;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   Right Content
+   ========================================= */
+
+.alumni-content {
+  min-width: 0;
+}
+
+.alumni-category-panel {
+  display: none;
+}
+
+.alumni-category-panel.active {
+  display: block;
+}
+
+.alumni-category-panel h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.7rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   border-bottom: 2px solid var(--global-divider-color);
 }
 
-.alumni-category:first-child {
-  margin-top: 0.5rem;
+
+/* =========================================
+   Scrollable Alumni List
+   ========================================= */
+
+.alumni-list {
+  max-height: 65vh;
+  overflow-y: auto;
+  padding-right: 1rem;
+  scrollbar-width: thin;
 }
 
 
@@ -335,11 +404,8 @@ $max-content-width: {{ site.max_width }};
 .alumni-member {
   display: flex;
   align-items: center;
-
   gap: 1.5rem;
-
-  padding: 1.4rem 0;
-
+  padding: 1.25rem 0;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
@@ -355,12 +421,9 @@ $max-content-width: {{ site.max_width }};
 
 .alumni-photo img {
   display: block;
-
   width: 90px;
   height: 90px;
-
   object-fit: cover;
-
   border-radius: 50%;
 }
 
@@ -376,38 +439,28 @@ $max-content-width: {{ site.max_width }};
 
 .alumni-name {
   margin: 0 0 0.3rem;
-
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.3;
 }
 
 .alumni-dept {
-  margin-bottom: 0.15rem;
-
-  font-size: 0.92rem;
-  font-weight: 500;
-
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
   line-height: 1.4;
+  opacity: 0.8;
 }
 
 .alumni-years {
-  margin-bottom: 0.45rem;
-
-  font-size: 0.85rem;
-
+  margin-bottom: 0.4rem;
+  font-size: 0.84rem;
   opacity: 0.65;
 }
 
 .alumni-current {
-  margin-bottom: 0.55rem;
-
+  margin-bottom: 0.5rem;
   font-size: 0.9rem;
   line-height: 1.5;
-}
-
-.alumni-current strong {
-  font-weight: 600;
 }
 
 
@@ -419,7 +472,6 @@ $max-content-width: {{ site.max_width }};
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-
   font-size: 0.84rem;
 }
 
@@ -436,20 +488,59 @@ $max-content-width: {{ site.max_width }};
    Mobile
    ========================================= */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
-  .alumni-category {
-    margin-top: 2.5rem;
-
-    font-size: 1.3rem;
+  .alumni-page {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
+
+  .alumni-sidebar {
+    position: static;
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 1rem;
+  }
+
+  .alumni-sidebar h2 {
+    margin-bottom: 0.75rem;
+  }
+
+  /*
+   * On mobile, categories become a horizontal
+   * scrolling navigation.
+   */
+
+  .alumni-tab {
+    display: inline-block;
+    width: auto;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .alumni-list {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .alumni-category-panel h2 {
+    font-size: 1.4rem;
+  }
+
+}
+
+
+/* =========================================
+   Small Mobile
+   ========================================= */
+
+@media (max-width: 500px) {
 
   .alumni-member {
     align-items: flex-start;
-
     gap: 1rem;
-
-    padding: 1.2rem 0;
   }
 
   .alumni-photo {
@@ -466,17 +557,12 @@ $max-content-width: {{ site.max_width }};
     font-size: 1.05rem;
   }
 
-  .alumni-dept {
-    font-size: 0.86rem;
-  }
-
+  .alumni-dept,
   .alumni-current {
     font-size: 0.85rem;
   }
 
   .alumni-links {
     font-size: 0.8rem;
-    gap: 0.8rem;
   }
 }
-
