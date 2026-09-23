@@ -24,6 +24,11 @@ hide_title: true
           Department of Electrical and Software Engineering<br>
           University of Calgary
         </div>
+
+        <div class="director-office">
+          ICT 352C, 856 Campus Pl NW<br>
+          Calgary, Alberta T2L 0Y2
+        </div>
       </div>
     </div>
 
@@ -43,32 +48,9 @@ hide_title: true
 
       <p>
         For more details about Dr. Souza's work, please check his
-        <a
-          href="https://scholar.google.com/citations?user=G2V4oBIAAAAJ&hl=en"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Scholar
-        </a>
-        and
-        <a
-          href="https://profiles.ucalgary.ca/roberto-souza"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          University Profile
-        </a>
-        pages.
+        <a href="https://scholar.google.com/citations?user=G2V4oBIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>and<a href="https://profiles.ucalgary.ca/roberto-souza" target="_blank" rel="noopener noreferrer">University Profile</a>pages.
       </p>
-
     </div>
-
-
-    <div class="director-contact">
-      <p>ICT 352C, 856 Campus Pl NW</p>
-      <p>Calgary, Alberta T2L 0Y2</p>
-    </div>
-
   </section>
 
 
@@ -89,6 +71,11 @@ hide_title: true
           Department of Biomedical Engineering<br>
           Department of Electrical and Software Engineering<br>
           University of Calgary
+        </div>
+
+        <div class="director-office">
+          CCIT016, 50 Collegiate Place NW<br>
+          Calgary, Alberta T2L 0Y2
         </div>
       </div>
     </div>
@@ -113,32 +100,11 @@ hide_title: true
 
       <p>
         For more details about Dr. Bento's work, please check her
-        <a
-          href="https://scholar.google.com/citations?user=3DxVbpcAAAAJ&hl=pt-BR"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Scholar
-        </a>
-        and
-        <a
-          href="https://profiles.ucalgary.ca/mariana-pinheiro-bento"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          University Profile
-        </a>
-        pages.
+        <a href="https://scholar.google.com/citations?user=3DxVbpcAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer">Google Scholar</a>and<a href="https://profiles.ucalgary.ca/mariana-pinheiro-bento" target="_blank" rel="noopener noreferrer">University Profile</a>pages.
       </p>
 
     </div>
 
-
-    <div class="director-contact">
-      <p>CCIT016, 50 Collegiate Place NW</p>
-      <p>Calgary, Alberta, T2L 0Y2</p>
-    </div>
     
   </section>
-  
 </div>
