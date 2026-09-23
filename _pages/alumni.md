@@ -3,7 +3,7 @@ layout: page
 title: Alumni
 permalink: /alumni/
 nav: true
-nav_order: 4
+nav_order: 6
 hide_title: true
 ---
 
