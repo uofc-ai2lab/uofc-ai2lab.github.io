@@ -11,8 +11,8 @@ profile:
   image_circular: false
   more_info: >
     <p>
-      Schulich School of Engineering, University of Calgary
-      2500 University Dr NW
+      Schulich School of Engineering, University of Calgary<br>
+      2500 University Dr NW<br>
       Calgary, Alberta T2N 1N4
     </p>
 
