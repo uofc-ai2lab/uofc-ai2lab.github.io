@@ -12,7 +12,7 @@ img: assets/img/people/anik_das.jpg
 redirect: https://scholar.google.com/citations?hl=en&user=02UO1p8AAAAJ
 linkedin_username: anik-das-5285421a1
 
-category: Research Assistant
+category: Staff
 show: true
 ---
 
