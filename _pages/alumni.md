@@ -146,22 +146,84 @@ nav_order: 4
       <h2>Former MSc Students</h2>
 
       <div class="alumni-list">
-      
-        <!-- Alumni: Parisa Saat -->
+        <!-- Alumni: Neha Gianchandani -->
         <div class="alumni-member">
-          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Alexandre_Lopes.png' | relative_url }}" alt="Alexandre Lopes"></div>
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Neha_Gianchandani.jpg' | relative_url }}" alt="Neha Gianchandani"></div>
 
           <div class="alumni-info">
-            <h3 class="alumni-name">Alexandre Lopes</h3>
-            <div class="alumni-dept">Computer Science (University of Campinas)</div>
+            <h3 class="alumni-name">Neha Gianchandani</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
 
             <div class="alumni-links">
-              <a href="https://scholar.google.com/citations?user=KeHisO8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a href="https://www.linkedin.com/in/alexandreribeirolopes/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://scholar.google.com/citations?user=zW3pptAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/neha-gianchandani/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
 
+        
+        <!-- Alumni: Anik Das -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Anik_Das.jpg' | relative_url }}" alt="Anik Das"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Anik Das</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=02UO1p8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/anik-das-5285421a1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Alumni: Rodrigo Berto -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Rodrigo_Berto.jpg' | relative_url }}" alt="Rodrigo Berto"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Rodrigo Berto</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/rodrigo-pommot-berto/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Alumni: Youssef Beauferris -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Youssef_Beauferris.jpg' | relative_url }}" alt="Youssef Beauferris"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Youssef Beauferris</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=jSfn0_UAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/youssef-beauferris/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+      
+        <!-- Alumni: Parisa Saat -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Parisa_Saat.jpg' | relative_url }}" alt="Parisa Saat"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Parisa Saat</h3>
+            <div class="alumni-dept">Electrical and Software Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=B_78YHsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/parisasaat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
 
 
       </div>
