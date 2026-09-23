@@ -4,6 +4,7 @@ title: Alumni
 permalink: /alumni/
 nav: true
 nav_order: 4
+hide_title: true
 ---
 
 <div class="alumni-page">
