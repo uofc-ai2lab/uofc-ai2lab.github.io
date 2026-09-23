@@ -20,7 +20,7 @@ hide_title: true
  
   <div class="alumni-content">
     
-    <!-- Former Postdoctoral Fellows -->
+    <!-- =====Former Postdoctoral Fellows===== -->
     <section class="alumni-category-panel active" data-category="postdocs">
       <h2>Former Postdoctoral Fellows</h2>
 
@@ -81,7 +81,7 @@ hide_title: true
 
 
 
-    <!-- Former PhD Students -->
+    <!-- =====Former PhD Students===== -->
     <section class="alumni-category-panel" data-category="phd">
       <h2>Former PhD Students</h2>
 
@@ -142,11 +142,44 @@ hide_title: true
 
 
 
-    <!-- Former MSc Students -->
+    <!-- =====Former MSc Students===== -->
     <section class="alumni-category-panel" data-category="msc">
       <h2>Former MSc Students</h2>
 
       <div class="alumni-list">
+
+        <!-- Alumni: Yeganeh Bahari -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Yeganeh_Bahari.jpg' | relative_url }}" alt="Yeganeh Bahari"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Yeganeh Bahari</h3>
+            <div class="alumni-dept">Electrical and Software Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Alumni: Gabriel Dias -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Gabriel_Dias.jpg' | relative_url }}" alt="Gabriel Dias"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Gabriel Dias</h3>
+            <div class="alumni-dept">Visiting Student, Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=FQIYLZYAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/gabriel-dias-1a3827139/?locale=en" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        
         <!-- Alumni: Neha Gianchandani -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Neha_Gianchandani.jpg' | relative_url }}" alt="Neha Gianchandani"></div>
