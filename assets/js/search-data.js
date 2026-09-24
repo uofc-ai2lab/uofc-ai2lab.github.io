@@ -397,10 +397,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-congratulations-to-stephen-moore-on-being-awarded-the-2025-alberta-innovates-graduate-student-scholarships",
-          title: 'Congratulations to Stephen Moore on being awarded the 2025 Alberta Innovates Graduate Student...',
-          description: "",
-          section: "News",},{id: "news-new-paper-published-in-stroke",
+            },},{id: "news-new-paper-published-in-stroke",
           title: 'New paper published in Stroke',
           description: "Our latest study investigates artificial intelligence methods for improving stroke imaging analysis.",
           section: "News",handler: () => {
