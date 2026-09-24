@@ -414,16 +414,16 @@ $max-content-width: {{ site.max_width }};
 
 /* Photo */
 .person-photo {
-  flex: 0 0 140px;
-  width: 140px;
+  flex: 0 0 180px;
+  width: 180px;
 }
 
 .person-photo img {
   display: block;
-  width: 140px;
-  height: 140px;
-  object-fit: contain;
-  object-position: center;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center top;
   border-radius: 50%;
 }
 
