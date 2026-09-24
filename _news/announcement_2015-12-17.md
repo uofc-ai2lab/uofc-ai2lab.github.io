@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-12-17 15:59:00-0400
-inline: true
-related_posts: false
----
+date: 2026-09-20
+inline: false
 
-Congratulations to Tasneem Nasser on receiving the 2025 BME Research Excellence Award.
+title: New paper published in Stroke
+description: Our latest study investigates artificial intelligence methods for improving stroke imaging analysis.
+image: /assets/img/ai2lab_logo.png
+---
