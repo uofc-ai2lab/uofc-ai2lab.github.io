@@ -397,16 +397,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-congratulations-to-tasneem-nasser-on-receiving-the-2025-bme-research-excellence-award",
-          title: 'Congratulations to Tasneem Nasser on receiving the 2025 BME Research Excellence Award.',
-          description: "",
-          section: "News",},{id: "news-congratulations-to-jose-cazarin-filho-on-a-successful-msc-defence",
+            },},{id: "news-congratulations-to-jose-cazarin-filho-on-a-successful-msc-defence",
           title: 'Congratulations to Jose Cazarin Filho on a successful MSc defence.',
           description: "",
           section: "News",},{id: "news-congratulations-to-stephen-moore-on-being-awarded-the-2025-alberta-innovates-graduate-student-scholarships",
           title: 'Congratulations to Stephen Moore on being awarded the 2025 Alberta Innovates Graduate Student...',
           description: "",
-          section: "News",},{id: "people-anik-das",
+          section: "News",},{id: "news-new-paper-published-in-stroke",
+          title: 'New paper published in Stroke',
+          description: "Our latest study investigates artificial intelligence methods for improving stroke imaging analysis.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2015-12-17.html";
+            },},{id: "people-anik-das",
           title: 'Anik_das',
           description: "Research Assistant",
           section: "People",handler: () => {
