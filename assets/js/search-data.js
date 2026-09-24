@@ -397,10 +397,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-congratulations-to-jose-cazarin-filho-on-a-successful-msc-defence",
-          title: 'Congratulations to Jose Cazarin Filho on a successful MSc defence.',
-          description: "",
-          section: "News",},{id: "news-congratulations-to-stephen-moore-on-being-awarded-the-2025-alberta-innovates-graduate-student-scholarships",
+            },},{id: "news-congratulations-to-stephen-moore-on-being-awarded-the-2025-alberta-innovates-graduate-student-scholarships",
           title: 'Congratulations to Stephen Moore on being awarded the 2025 Alberta Innovates Graduate Student...',
           description: "",
           section: "News",},{id: "news-new-paper-published-in-stroke",
