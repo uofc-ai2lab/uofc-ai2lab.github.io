@@ -423,7 +423,7 @@ $max-content-width: {{ site.max_width }};
   width: 140px;
   height: 140px;
   object-fit: cover;
-  object-position: center 10%;
+  object-position: center top;
   border-radius: 50%;
 }
 
