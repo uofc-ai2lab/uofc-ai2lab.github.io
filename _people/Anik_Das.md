@@ -7,7 +7,7 @@ lastname: Das
 description: Research Assistant
 department: Biomedical Engineering
 
-img: assets/img/people/anik_das2.jpg
+img: assets/img/people/anik_das.jpg
 
 redirect: https://scholar.google.com/citations?hl=en&user=02UO1p8AAAAJ
 linkedin_username: anik-das-5285421a1
