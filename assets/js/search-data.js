@@ -1106,7 +1106,7 @@ ninja.data = [{
           title: 'Andrea presents at the BME Undergraduate Summer Symposium',
           description: "Congratulations to Andrea for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-08-01_andrea-presents-at-the-bme-undergraduate-summer-symposium.html";
+              window.location.href = "/news/announcement_2026-08-17_andrea-poster_presentation.html";
             },},{id: "news-maya-presents-at-the-bme-undergraduate-summer-symposium",
           title: 'Maya presents at the BME Undergraduate Summer Symposium',
           description: "Congratulations to Maya for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
