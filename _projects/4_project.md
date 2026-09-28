@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 4: What goes where? A Garbage Classification system based on Images and Natural Language"
+title: "What goes where? A Garbage Classification system based on Images and Natural Language"
 description: 
 img: 
 importance: 1
