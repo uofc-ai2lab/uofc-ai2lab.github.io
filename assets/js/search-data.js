@@ -1111,7 +1111,7 @@ ninja.data = [{
           title: 'Maya presents at the BME Undergraduate Summer Symposium',
           description: "Congratulations to Maya for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-08-01_maya-presents-at-the-bme-undergraduate-summer-symposium.html";
+              window.location.href = "/news/announcement_2026-08-18_maya-poster-presentation.html";
             },},{id: "news-dr-bento-nominated-for-an-astech-award",
           title: 'Dr. Bento nominated for an ASTech Award',
           description: "Congratulations to Dr. Bento for being nominated for an ASTech Award!",
