@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging"
+title: "Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging"
 description: 
 img: 
 importance: 1
