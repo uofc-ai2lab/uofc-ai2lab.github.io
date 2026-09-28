@@ -1182,8 +1182,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5-fairness-in-machine-learning",
-          title: 'Project 5: Fairness in Machine Learning',
+            },},{id: "projects-fairness-in-machine-learning",
+          title: 'Fairness in Machine Learning',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
