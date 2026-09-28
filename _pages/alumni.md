@@ -402,6 +402,8 @@ hide_title: true
       <h2>Former Summer Interns</h2>
 
       <div class="alumni-simple-list">
+        <div class="alumni-simple-item"><strong>Andrea Johnson</strong><span>Mitacs Globallink Intern — Summer 2026</span></div>
+        <div class="alumni-simple-item"><strong>Maya Wadhera</strong><span>University of Calgary — Summer 2026</span></div>
         <div class="alumni-simple-item"><strong>Caitlyn Lee</strong><span>University of Calgary — Summer 2025</span></div>
         <div class="alumni-simple-item"><strong>Natalia Romero</strong><span>MITACS exchange student — Summer 2025</span></div>
         <div class="alumni-simple-item"><strong>Aminreza Abbasi</strong><span>Summer Student — Summer 2024</span></div>
