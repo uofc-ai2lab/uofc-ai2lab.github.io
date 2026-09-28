@@ -407,9 +407,9 @@ ninja.data = [{
           description: "Congratulations to Harshal Patel and Maheen Hossain on getting the Alberta Innovates Summer Research Studentship! Welcome to our team this summer!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2021-03-01_harshal-patel-and-maheen-hossain-receive-alberta-innovates-summer-research-studentships.html";
-            },},{id: "news-lucas-ion-receives-nserc-usra-award",
-          title: 'Lucas Ion receives NSERC USRA award',
-          description: "Congratulations to Lucas Ion on getting an NSERC USRA award! We are happy to have Lucas on our team this summer!",
+            },},{id: "news-lucas-on-receives-nserc-usra-award",
+          title: 'Lucas on receives NSERC USRA award',
+          description: "Congratulations to Lucas on getting an NSERC USRA award! We are happy to have Lucas on our team this summer!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2021-03-01_lucas-ion-receives-nserc-usra-award.html";
             },},{id: "news-dr-souza-receives-first-nserc-discovery-grant",
