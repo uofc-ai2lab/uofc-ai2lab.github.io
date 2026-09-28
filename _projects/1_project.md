@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 1: IMRI - Integrated Magnetic Resonance Imaging"
+title: "IMRI - Integrated Magnetic Resonance Imaging"
 description: 
 img: 
 importance: 1
