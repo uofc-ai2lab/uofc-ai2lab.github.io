@@ -1107,11 +1107,6 @@ ninja.data = [{
           description: "Congratulations to Andrea for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-08-01_andrea-presents-at-the-bme-undergraduate-summer-symposium.html";
-            },},{id: "news-brooke-successfully-completes-msc-defence",
-          title: 'Brooke successfully completes MSc defence',
-          description: "Congratulations to Brooke on her successful MSc Defence!",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-08-01_brooke-successfully-completes-msc-defence.html";
             },},{id: "news-dr-bento-nominated-for-an-astech-award",
           title: 'Dr. Bento nominated for an ASTech Award',
           description: "Congratulations to Dr. Bento for being nominated for an ASTech Award!",
@@ -1122,6 +1117,11 @@ ninja.data = [{
           description: "Congratulations to Maya for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-08-01_maya-presents-at-the-bme-undergraduate-summer-symposium.html";
+            },},{id: "news-brooke-successfully-completes-msc-defence",
+          title: 'Brooke successfully completes MSc defence',
+          description: "Congratulations to Brooke on her successful MSc Defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-08-25_brooke-msc-defence.html";
             },},{id: "news-mansi-successfully-completes-msc-defence",
           title: 'Mansi successfully completes MSc defence',
           description: "Congratulations to Mansi on her successful MSc Defence!",
