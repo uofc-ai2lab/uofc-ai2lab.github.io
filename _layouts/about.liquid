@@ -115,16 +115,22 @@ layout: default
     </div>
 
 
-    <!-- =========================================
-         YOUTUBE VIDEO
-         ========================================= -->
-
+    <!-- ========================================= YOUTUBE VIDEO ========================================= -->
     <section class="ai2lab-video">
-
       <h2>AI2Lab</h2>
+      <p>
+        Our lab's open science efforts were featured in the
+        <a href="https://hbi.ucalgary.ca/research/institute-initiatives/openscience" target="_blank" rel="noopener noreferrer">
+          Hotchkiss Brain Institute
+        </a>
+        and the
+        <a href="https://www.ucalgary.ca/news/what-happens-when-2-nhl-hockey-icons-share-passion-neuroscience" target="_blank" rel="noopener noreferrer">
+          University of Calgary
+        </a>
+        news. Please check out the cool video below:
+      </p>
 
       <div class="ai2lab-video-container">
-
         <iframe
           src="https://www.youtube.com/embed/Bq1Epvz_RH8"
           title="AI2Lab"
@@ -132,27 +138,20 @@ layout: default
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen>
         </iframe>
-
       </div>
-
     </section>
 
 
-    <!-- =========================================
-         SOCIAL
-         ========================================= -->
+    <!-- ========================================= SOCIAL ========================================= -->
     {% comment %}
     {% if page.social %}
       <div class="social">
-
         <div class="contact-icons">
           {% include social.liquid %}
         </div>
-
         <div class="contact-note">
           {{ site.contact_note }}
         </div>
-
       </div>
     {% endif %}
     {% endcomment %}
@@ -163,5 +162,4 @@ layout: default
     {% endif %}
 
   </article>
-
 </div>
