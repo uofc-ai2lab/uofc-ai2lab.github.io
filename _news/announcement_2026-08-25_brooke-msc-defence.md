@@ -5,7 +5,7 @@ inline: false
 
 title: "Brooke successfully completes MSc defence"
 description: "Congratulations to Brooke on her successful MSc Defence!"
-image: /assets/img/news/brooke_defence_photo.jpeg
+image: /assets/img/news/brooke_defence_photo.png
 ---
 
 Congratulations to Brooke on her successful MSc Defence!
