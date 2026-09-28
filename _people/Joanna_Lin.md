@@ -9,8 +9,8 @@ department: Electrical & Computer Engineering
 
 img: assets/img/people/joanna_lin.jpg
 
-redirect:
-linkedin_username: 
+redirect: https://scholar.google.ca/citations?user=vY8y0HIAAAAJ&hl=en&oi=ao
+linkedin_username: 1joanna-lin
 
 category: MSc Students
 show: true
