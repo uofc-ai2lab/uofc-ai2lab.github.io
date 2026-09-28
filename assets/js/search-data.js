@@ -747,6 +747,386 @@ ninja.data = [{
           description: "Congratulations to Drs. Souza and Bento on having an Alberta Innovates LEVMAX grant approved!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2023-12-01_souza-and-bento-have-alberta-innovates-levmax-grant-approved.html";
+            },},{id: "news-dr-bento-awarded-nserc-alliance-grant",
+          title: 'Dr. Bento awarded NSERC Alliance grant',
+          description: "Congratulations to Dr. Bento on being awarded an NSERC Alliance – Alberta Innovates Advance stream II grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-01-01_dr-bento-awarded-nserc-alliance-grant.html";
+            },},{id: "news-hanna-completes-stage-1-phd-candidacy-exam",
+          title: 'Hanna completes Stage 1 PhD candidacy exam',
+          description: "Congratulations to Hanna on a successful stage 1 PhD candidacy exam!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-01-01_hanna-completes-stage-1-phd-candidacy-exam.html";
+            },},{id: "news-hanna-natalia-and-amir-abstracts-accepted-at-ismrm-2024",
+          title: 'Hanna, Natalia and Amir abstracts accepted at ISMRM 2024',
+          description: "Congratulations to Hanna, Natalia, and Amir for having abstracts accepted at the 2024 ISMRM!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-01-01_hanna-natalia-and-amir-abstracts-accepted-at-ismrm-2024.html";
+            },},{id: "news-mahsa-receives-alberta-graduate-excellence-scholarship",
+          title: 'Mahsa receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Mahsa on receiving the Alberta Graduate Excellence Scholarship (AGES) award for Winter 2024!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-01-01_mahsa-receives-alberta-graduate-excellence-scholarship.html";
+            },},{id: "news-hanna-receives-alberta-innovates-graduate-student-scholarship",
+          title: 'Hanna receives Alberta Innovates Graduate Student Scholarship',
+          description: "Congratulations to Hanna on receiving the Alberta Innovates Graduate Student Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-02-01_hanna-receives-alberta-innovates-graduate-student-scholarship.html";
+            },},{id: "news-peyman-receives-mitacs-accelerate-graduate-research-internship",
+          title: 'Peyman receives Mitacs-Accelerate Graduate Research Internship',
+          description: "Congratulations to Peyman on receiving the Mitacs-Accelerate Graduate Research Internship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-02-01_peyman-receives-mitacs-accelerate-graduate-research-internship.html";
+            },},{id: "news-abbas-mahsa-and-mohammad-receive-ese-graduate-research-awards",
+          title: 'Abbas, Mahsa and Mohammad receive ESE Graduate Research Awards',
+          description: "Congratulations to Abbas, Mahsa and Mohammad on receiving the ESE Graduate Research Awards!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_abbas-mahsa-and-mohammad-receive-ese-graduate-research-awards.html";
+            },},{id: "news-abbas-receives-graduate-student-research-impact-excellence-award",
+          title: 'Abbas receives Graduate Student Research Impact Excellence Award',
+          description: "Congratulations to Abbas on receiving the Graduate Student Research Impact Excellence Award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_abbas-receives-graduate-student-research-impact-excellence-award.html";
+            },},{id: "news-aminreza-abbasi-receives-alberta-innovates-summer-research-studentship",
+          title: 'Aminreza Abbasi receives Alberta Innovates Summer Research Studentship',
+          description: "Congratulations to Aminreza Abbasi on receiving an Alberta Innovates Summer Research Studentship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_aminreza-abbasi-receives-alberta-innovates-summer-research-studentship.html";
+            },},{id: "news-daniel-lee-and-grazia-mena-awarded-nserc-usras",
+          title: 'Daniel Lee and Grazia Mena awarded NSERC USRAs',
+          description: "Congratulations to Daniel Lee and Grazia Mena on being awarded NSERC USRAs!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_daniel-lee-and-grazia-mena-awarded-nserc-usras.html";
+            },},{id: "news-dr-bento-organizes-successful-wids-event",
+          title: 'Dr. Bento organizes successful WiDS event',
+          description: "Congratulations to Dr. Bento for organizing a very successful WiDS event!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_dr-bento-organizes-successful-wids-event.html";
+            },},{id: "news-dr-leticia-rittner-awarded-killam-visiting-scholar",
+          title: 'Dr. Leticia Rittner awarded Killam Visiting Scholar',
+          description: "Congratulations to Dr. Leticia Rittner on being awarded the Killam Visiting Scholar! Drs. Rittner and Bento spearheaded the application.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_dr-leticia-rittner-awarded-killam-visiting-scholar.html";
+            },},{id: "news-hanna-bugler-wins-wids-best-poster-award",
+          title: 'Hanna Bugler wins WiDS best poster award',
+          description: "Congratulations to Hanna Bugler on winning the WiDS best poster award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_hanna-bugler-wins-wids-best-poster-award.html";
+            },},{id: "news-hanna-receives-graduate-teaching-assistant-award",
+          title: 'Hanna receives Graduate Teaching Assistant Award',
+          description: "Congratulations to Hanna on receiving a Graduate Teaching Assistant Award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_hanna-receives-graduate-teaching-assistant-award.html";
+            },},{id: "news-natalia-paper-accepted-in-mrm",
+          title: 'Natalia paper accepted in MRM',
+          description: "Congratulations to Natalia on having her MRM paper accepted for publication!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_natalia-paper-accepted-in-mrm.html";
+            },},{id: "news-rodrigo-hanna-and-gabriel-paper-accepted-at-magma",
+          title: 'Rodrigo, Hanna and Gabriel paper accepted at MAGMA',
+          description: "Congratulations to Rodrigo, Hanna, and Gabriel on having the Edited-MRS reconstruction challenge paper accepted at MAGMA!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_rodrigo-hanna-and-gabriel-paper-accepted-at-magma.html";
+            },},{id: "news-souza-and-bento-awarded-alberta-innovates-levmax-health-grant",
+          title: 'Souza and Bento awarded Alberta Innovates LevMax-Health grant',
+          description: "Congratulations to Drs. Souza and Bento on being awarded an Alberta Innovates LevMax-Health grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-03-01_souza-and-bento-awarded-alberta-innovates-levmax-health-grant.html";
+            },},{id: "news-abbas-paper-accepted-at-midl-2024",
+          title: 'Abbas paper accepted at MIDL 2024',
+          description: "Congratulations to Abbas and co-authors on having a full paper accepted at the 2024 MIDL!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-04-01_abbas-paper-accepted-at-midl-2024.html";
+            },},{id: "news-dr-bento-gives-invited-talk-at-brainn-congress",
+          title: 'Dr. Bento gives invited talk at BRAINN Congress',
+          description: "Congratulations to Dr. Bento on her excellent invited talk at the 10th BRAINN Congress!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-04-01_dr-bento-gives-invited-talk-at-brainn-congress.html";
+            },},{id: "news-dr-souza-and-team-selected-for-spark-alberta",
+          title: 'Dr. Souza and team selected for SPARK Alberta',
+          description: "Congratulations to Dr. Souza and the team on being selected for the SPARK Alberta program!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-04-01_dr-souza-and-team-selected-for-spark-alberta.html";
+            },},{id: "news-hanna-and-rodrigo-work-accepted-at-elsevier-mri",
+          title: 'Hanna and Rodrigo work accepted at Elsevier MRI',
+          description: "Congratulations to Hanna and Rodrigo on having their work accepted for publication at Elsevier MRI!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-05-01_hanna-and-rodrigo-work-accepted-at-elsevier-mri.html";
+            },},{id: "news-anik-successfully-completes-msc-defence",
+          title: 'Anik successfully completes MSc defence',
+          description: "Congratulations to Anik on a successful MSc defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-06-01_anik-successfully-completes-msc-defence.html";
+            },},{id: "news-hanna-wins-dragon-s-den-people-s-choice",
+          title: 'Hanna wins Dragon’s Den People’s Choice',
+          description: "Congratulations to Hanna on winning the Dragon&#39;s Den People&#39;s Choice at the HBI research day!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-06-01_hanna-wins-dragon-s-den-people-s-choice.html";
+            },},{id: "news-peyman-receives-alberta-graduate-excellence-scholarship",
+          title: 'Peyman receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Peyman on receiving an Alberta Graduate Excellence scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-06-01_peyman-receives-alberta-graduate-excellence-scholarship.html";
+            },},{id: "news-peyman-work-accepted-for-publication-at-miccai",
+          title: 'Peyman work accepted for publication at MICCAI',
+          description: "Congratulations to Peyman on having his work accepted for publication at MICCAI!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-06-01_peyman-work-accepted-for-publication-at-miccai.html";
+            },},{id: "news-abbas-presents-at-midl-2024-in-paris",
+          title: 'Abbas presents at MIDL 2024 in Paris',
+          description: "Abbas presents his work in Paris at the 2024 MIDL!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-07-01_abbas-presents-at-midl-2024-in-paris.html";
+            },},{id: "news-ai2lab-group-hike-in-kananaskis",
+          title: 'AI2Lab group hike in Kananaskis',
+          description: "Another successful group hike in Kananaskis!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-07-01_ai2lab-group-hike-in-kananaskis.html";
+            },},{id: "news-hanna-completes-field-of-study-exam",
+          title: 'Hanna completes field of study exam',
+          description: "Congratulations to Hanna on a successful field of study exam!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-07-01_hanna-completes-field-of-study-exam.html";
+            },},{id: "news-mahsa-receives-international-master-s-scholarship",
+          title: 'Mahsa receives International Master’s Scholarship',
+          description: "Congratulations to Mahsa on receiving the Faculty of Graduate Studies International Master&#39;s Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-07-01_mahsa-receives-international-master-s-scholarship.html";
+            },},{id: "news-mohammad-paper-accepted-at-ieee-itsc-2024",
+          title: 'Mohammad paper accepted at IEEE ITSC 2024',
+          description: "Congratulations to Mohammad on having a paper accepted at the 2024 IEEE ITSC!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-07-01_mohammad-paper-accepted-at-ieee-itsc-2024.html";
+            },},{id: "news-ai2lab-welcomes-new-fall-2024-trainees",
+          title: 'AI2Lab welcomes new Fall 2024 trainees',
+          description: "Welcome to all the new trainees joining AI2Lab in Fall 2024!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-09-01_ai2lab-welcomes-new-fall-2024-trainees.html";
+            },},{id: "news-farzaneh-and-kaue-papers-accepted-at-sipaim-2024",
+          title: 'Farzaneh and Kaue papers accepted at SIPAIM 2024',
+          description: "Congratulations to Farzaneh and Kaue on having their papers accepted at SIPAIM 2024!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-09-01_farzaneh-and-kaue-papers-accepted-at-sipaim-2024.html";
+            },},{id: "news-mahsa-and-anik-papers-accepted-at-frontiers",
+          title: 'Mahsa and Anik papers accepted at Frontiers',
+          description: "Congratulations to Mahsa and Anik on having their papers accepted at Frontiers in Computational Neuroscience!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-09-01_mahsa-and-anik-papers-accepted-at-frontiers.html";
+            },},{id: "news-hanna-receives-alberta-graduate-excellence-scholarship",
+          title: 'Hanna receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Hanna on receiving the Alberta Graduate Excellence Scholarships (AGES) - Doctoral Research!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-10-01_hanna-receives-alberta-graduate-excellence-scholarship.html";
+            },},{id: "news-jacob-and-team-place-third-in-2024-isles-challenge",
+          title: 'Jacob and team place third in 2024 ISLES challenge',
+          description: "Congratulations to Jacob and the team on placing 3rd in the 2024 ISLES challenge at MICCAI!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-10-01_jacob-and-team-place-third-in-2024-isles-challenge.html";
+            },},{id: "news-ai2lab-says-farewell-to-amir",
+          title: 'AI2Lab says farewell to Amir',
+          description: "The lab says farewell to Amir, who recently moved on to a job at Synex.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-11-01_ai2lab-says-farewell-to-amir.html";
+            },},{id: "news-dr-souza-awarded-ucalgary-connector-grant",
+          title: 'Dr. Souza awarded UCalgary Connector grant',
+          description: "Congratulations to Dr. Souza on being awarded a UCalgary Connector grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-11-01_dr-souza-awarded-ucalgary-connector-grant.html";
+            },},{id: "news-dr-souza-co-applicant-on-successful-levmax-health-grant",
+          title: 'Dr. Souza co-applicant on successful LevMax-Health grant',
+          description: "Congratulations to Dr. Souza, a co-applicant in a successful LevMax-Health grant. This grant will further broaden the lab work beyond brain imaging!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-11-01_dr-souza-co-applicant-on-successful-levmax-health-grant.html";
+            },},{id: "news-rittner-bento-and-souza-receive-cnpq-grant",
+          title: 'Rittner, Bento and Souza receive CNPq grant',
+          description: "Congratulations to Drs. Rittner, Bento, and Souza on receiving a CNPq grant to increase research exchanges between UCalgary and UNICAMP!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-11-01_rittner-bento-and-souza-receive-cnpq-grant.html";
+            },},{id: "news-abbas-omidi-successfully-completes-msc-defence",
+          title: 'Abbas Omidi successfully completes MSc defence',
+          description: "Congratulations to Abbas Omidi on a successful MSc defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-12-01_abbas-omidi-successfully-completes-msc-defence.html";
+            },},{id: "news-natalia-successfully-completes-msc-defence",
+          title: 'Natalia successfully completes MSc defence',
+          description: "Congratulations to Natalia on a successful MSc defence. Natalia will be joining Circle Cardiovascular in January.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-12-01_natalia-successfully-completes-msc-defence.html";
+            },},{id: "news-dr-bento-receives-schulich-teaching-and-momentum-awards",
+          title: 'Dr. Bento receives Schulich teaching and momentum awards',
+          description: "Congratulations to Dr. Bento on receiving the Schulich Undergraduate Teaching and Momentum Excellence awards!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-02-01_dr-bento-receives-schulich-teaching-and-momentum-awards.html";
+            },},{id: "news-ai2lab-welcomes-ana-clara-silveira-and-wesna-araujo",
+          title: 'AI2Lab welcomes Ana Clara Silveira and Wesna Araujo',
+          description: "The AI2Lab welcomes Ana Clara Silveira and Wesna Araujo, visiting students from UNICAMP who stayed with the lab through the end of May.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_ai2lab-welcomes-ana-clara-silveira-and-wesna-araujo.html";
+            },},{id: "news-alexandre-lopes-and-peyman-tahghighi-complete-phd-defences",
+          title: 'Alexandre Lopes and Peyman Tahghighi complete PhD defences',
+          description: "Congratulations to Drs. Alexandre Lopes and Peyman Tahghighi on their successful PhD defences!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_alexandre-lopes-and-peyman-tahghighi-complete-phd-defences.html";
+            },},{id: "news-ana-clara-receives-women-in-data-science-best-poster-award",
+          title: 'Ana Clara receives Women in Data Science best poster award',
+          description: "Congratulations to Ana Clara on receiving the best poster award in the Women in Data Science!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_ana-clara-receives-women-in-data-science-best-poster-award.html";
+            },},{id: "news-anik-das-presents-at-spie-2025",
+          title: 'Anik Das presents at SPIE 2025',
+          description: "Congratulations to Anik Das, MSc, for presenting their work at the 2025 SPIE!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_anik-das-presents-at-spie-2025.html";
+            },},{id: "news-dr-bento-delivers-keynote-at-fairness-2025",
+          title: 'Dr. Bento delivers keynote at Fairness 2025',
+          description: "Congratulations to Dr. Bento on delivering a keynote during the 1st International Workshop on Fairness in Software Systems (Fairness 2025)!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_dr-bento-delivers-keynote-at-fairness-2025.html";
+            },},{id: "news-mahsa-dibaji-successfully-completes-msc-defence",
+          title: 'Mahsa Dibaji successfully completes MSc defence',
+          description: "Congratulations to Mahsa Dibaji on her successful MSc Defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_mahsa-dibaji-successfully-completes-msc-defence.html";
+            },},{id: "news-stephen-moore-and-nour-khalefa-receive-awards",
+          title: 'Stephen Moore and Nour Khalefa receive awards',
+          description: "Congratulations to Stephen Moore for receiving the 2024 BME Research Excellence Award and Nour Khalefa for receiving the Alberta Graduate Excellence Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-03-01_stephen-moore-and-nour-khalefa-receive-awards.html";
+            },},{id: "news-stephen-moore-awarded-nserc-cgs-m-scholarship",
+          title: 'Stephen Moore awarded NSERC CGS-M scholarship',
+          description: "Congratulations to Stephen Moore on being awarded an NSERC CGS-M scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-04-01_stephen-moore-awarded-nserc-cgs-m-scholarship.html";
+            },},{id: "news-farzaneh-dehghani-completes-bme-stage-1-candidacy-defence",
+          title: 'Farzaneh Dehghani completes BME Stage 1 candidacy defence',
+          description: "Congratulations to Farzaneh Dehghani on a successful BME Stage 1 candidacy defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-05-01_farzaneh-dehghani-completes-bme-stage-1-candidacy-defence.html";
+            },},{id: "news-hanna-bugler-awarded-nserc-doctoral-scholarship",
+          title: 'Hanna Bugler awarded NSERC doctoral scholarship',
+          description: "Congratulations to Hanna Bugler on being awarded an NSERC doctoral scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-05-01_hanna-bugler-awarded-nserc-doctoral-scholarship.html";
+            },},{id: "news-mariana-bento-awarded-schulich-momentum-grant",
+          title: 'Mariana Bento awarded Schulich Momentum grant',
+          description: "Congratulations to Mariana Bento on being awarded a Schulich Momentum grant to develop research in the use of AI in education!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-05-01_mariana-bento-awarded-schulich-momentum-grant.html";
+            },},{id: "news-tasneem-nasser-completes-bme-stage-1-candidacy-defence",
+          title: 'Tasneem Nasser completes BME Stage 1 candidacy defence',
+          description: "Congratulations to Tasneem Nasser on a successful BME Stage 1 candidacy defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-05-01_tasneem-nasser-completes-bme-stage-1-candidacy-defence.html";
+            },},{id: "news-tasneem-work-accepted-early-at-miccai-2025",
+          title: 'Tasneem work accepted early at MICCAI 2025',
+          description: "Congratulations to Tasneem on having her work accepted early at MICCAI 2025!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-05-01_tasneem-work-accepted-early-at-miccai-2025.html";
+            },},{id: "news-brooke-kindleman-receives-alberta-graduate-excellence-scholarship",
+          title: 'Brooke Kindleman receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Brooke Kindleman on being awarded the Alberta Graduate Excellence Scholarship (AGES)!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-07-01_brooke-kindleman-receives-alberta-graduate-excellence-scholarship.html";
+            },},{id: "news-gabriel-successfully-completes-msc-defence",
+          title: 'Gabriel successfully completes MSc defence',
+          description: "Congratulations to Gabriel on a successful MSc defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-07-01_gabriel-successfully-completes-msc-defence.html";
+            },},{id: "news-nour-receives-huangqi-sun-memorial-graduate-scholarship",
+          title: 'Nour receives Huangqi Sun Memorial Graduate Scholarship',
+          description: "Congratulations to Nour on receiving a Huangqi Sun Memorial Graduate Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-07-01_nour-receives-huangqi-sun-memorial-graduate-scholarship.html";
+            },},{id: "news-saad-mumu-and-youssef-accepted-at-miccai-2025-workshops",
+          title: 'Saad, Mumu and Youssef accepted at MICCAI 2025 workshops',
+          description: "Congratulations to Saad, Mumu and Youssef on having their work accepted at workshops at MICCAI 2025!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2025-07-01_saad-mumu-and-youssef-accepted-at-miccai-2025-workshops.html";
+            },},{id: "news-farzaneh-dehghani-receives-alberta-graduate-excellence-scholarship",
+          title: 'Farzaneh Dehghani receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Farzaneh Dehghani on being awarded the Alberta Graduate Excellence Scholarship (AGES)!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-01-01_farzaneh-dehghani-receives-alberta-graduate-excellence-scholarship.html";
+            },},{id: "news-ai2lab-team-volunteers-at-women-in-engineering-day-2026",
+          title: 'AI2Lab team volunteers at Women in Engineering Day 2026',
+          description: "A team from AI2Lab successfully participated as volunteers in Women in Engineering Day 2026!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-01_ai2lab-team-volunteers-at-women-in-engineering-day-2026.html";
+            },},{id: "news-arshin-and-anik-works-accepted-at-ismrm-2026",
+          title: 'Arshin and Anik works accepted at ISMRM 2026',
+          description: "Congratulations to Arshin and Anik on having their works accepted at ISMRM 2026!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-01_arshin-and-anik-works-accepted-at-ismrm-2026.html";
+            },},{id: "news-dr-bento-highlighted-in-women-led-research-feature",
+          title: 'Dr. Bento highlighted in Women-Led Research feature',
+          description: "Celebrating Women-Led Research: Dr. Bento was highlighted as one of the women researchers helping shape the future of research in Canada.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-01_dr-bento-highlighted-in-women-led-research-feature.html";
+            },},{id: "news-farzaneh-dehghani-completes-bme-stage-2-candidacy-defence",
+          title: 'Farzaneh Dehghani completes BME Stage 2 candidacy defence',
+          description: "Congratulations to Farzaneh Dehghani on a successful BME Stage 2 candidacy (Field of Study) defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-01_farzaneh-dehghani-completes-bme-stage-2-candidacy-defence.html";
+            },},{id: "news-zeyad-paper-accepted-at-midl",
+          title: 'Zeyad paper accepted at MIDL',
+          description: "Congratulations to Zeyad on having his paper accepted at MIDL!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-01_zeyad-paper-accepted-at-midl.html";
+            },},{id: "news-dr-bento-receives-women-in-engineering-amp-geoscience-champion-award",
+          title: 'Dr. Bento receives Women in Engineering &amp;amp; Geoscience Champion Award',
+          description: "Congratulations to Dr. Bento on receiving the Women in Engineering &amp; Geoscience Champion Award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-03-01_dr-bento-receives-women-in-engineering-geoscience-champion-award.html";
+            },},{id: "news-saad-ashraf-successfully-completes-msc-defence",
+          title: 'Saad Ashraf successfully completes MSc defence',
+          description: "Congratulations to Saad Ashraf on his successful MSc Defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-03-01_saad-ashraf-successfully-completes-msc-defence.html";
+            },},{id: "news-brooke-paper-accepted-at-embc-2026",
+          title: 'Brooke paper accepted at EMBC 2026',
+          description: "Congratulations to Brooke on having her paper accepted at EMBC 2026!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-04-01_brooke-paper-accepted-at-embc-2026.html";
+            },},{id: "news-brooke-presents-at-ieee-embc-2026",
+          title: 'Brooke presents at IEEE EMBC 2026',
+          description: "Congratulations to Brooke for presenting their work at the IEEE EMBC 2026!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-07-01_brooke-presents-at-ieee-embc-2026.html";
+            },},{id: "news-mansi-presents-their-work",
+          title: 'Mansi presents their work',
+          description: "Congratulations to Mansi for presenting their work!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-07-01_mansi-presents-their-work.html";
+            },},{id: "news-zeyad-successfully-completes-msc-defence",
+          title: 'Zeyad successfully completes MSc defence',
+          description: "Congratulations to Zeyad on his successful MSc Defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-07-01_zeyad-successfully-completes-msc-defence.html";
+            },},{id: "news-andrea-presents-at-the-bme-undergraduate-summer-symposium",
+          title: 'Andrea presents at the BME Undergraduate Summer Symposium',
+          description: "Congratulations to Andrea for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-08-01_andrea-presents-at-the-bme-undergraduate-summer-symposium.html";
+            },},{id: "news-brooke-successfully-completes-msc-defence",
+          title: 'Brooke successfully completes MSc defence',
+          description: "Congratulations to Brooke on her successful MSc Defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-08-01_brooke-successfully-completes-msc-defence.html";
+            },},{id: "news-dr-bento-nominated-for-an-astech-award",
+          title: 'Dr. Bento nominated for an ASTech Award',
+          description: "Congratulations to Dr. Bento for being nominated for an ASTech Award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-08-01_dr-bento-nominated-for-an-astech-award.html";
+            },},{id: "news-mansi-successfully-completes-msc-defence",
+          title: 'Mansi successfully completes MSc defence',
+          description: "Congratulations to Mansi on her successful MSc Defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-08-01_mansi-successfully-completes-msc-defence.html";
+            },},{id: "news-maya-presents-at-the-bme-undergraduate-summer-symposium",
+          title: 'Maya presents at the BME Undergraduate Summer Symposium',
+          description: "Congratulations to Maya for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-08-01_maya-presents-at-the-bme-undergraduate-summer-symposium.html";
             },},{id: "people-anik-das",
           title: 'Anik_das',
           description: "Research Assistant",
