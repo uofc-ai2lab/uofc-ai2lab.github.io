@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 3: Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable Models"
+title: "Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable Models"
 description: 
 img: 
 importance: 1
