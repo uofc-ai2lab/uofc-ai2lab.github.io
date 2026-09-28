@@ -1122,11 +1122,6 @@ ninja.data = [{
           description: "Congratulations to Maya for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-08-01_maya-presents-at-the-bme-undergraduate-summer-symposium.html";
-            },},{id: "news-mansi-successfully-completes-msc-defence",
-          title: 'Mansi successfully completes MSc defence',
-          description: "Congratulations to Mansi on her successful MSc Defence!",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-08-01_mansi-successfully-completes-msc-defence.html";
             },},{id: "people-anik-das",
           title: 'Anik_das',
           description: "Research Assistant",
