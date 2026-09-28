@@ -141,9 +141,8 @@ layout: default
     <!-- =========================================
          SOCIAL
          ========================================= -->
-
+    {% comment %}
     {% if page.social %}
-
       <div class="social">
 
         <div class="contact-icons">
@@ -155,8 +154,8 @@ layout: default
         </div>
 
       </div>
-
     {% endif %}
+    {% endcomment %}
 
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
