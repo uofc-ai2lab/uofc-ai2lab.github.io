@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2026-08-01
+date: 2026-08-17
 inline: false
 
 title: "Andrea presents at the BME Undergraduate Summer Symposium"
 description: "Congratulations to Andrea for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!"
-image: /assets/img/news/placeholder.jpg
+image: /assets/img/news/andrea_poster.jpeg
 ---
 
 Congratulations to Andrea for presenting their work at the 20th Annual BME Undergraduate Summer Symposium!
