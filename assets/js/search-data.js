@@ -1172,18 +1172,18 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
-          title: 'Project 3: Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable...',
+            },},{id: "projects-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
+          title: 'Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable Models',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4-what-goes-where-a-garbage-classification-system-based-on-images-and-natural-language",
-          title: 'Project 4: What goes where? A Garbage Classification system based on Images and...',
+            },},{id: "projects-what-goes-where-a-garbage-classification-system-based-on-images-and-natural-language",
+          title: 'What goes where? A Garbage Classification system based on Images and Natural Language...',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5-fairness-in-machine-learning",
-          title: 'Project 5: Fairness in Machine Learning',
+            },},{id: "projects-fairness-in-machine-learning",
+          title: 'Fairness in Machine Learning',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
