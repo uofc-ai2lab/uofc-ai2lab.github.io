@@ -1051,7 +1051,6 @@ $max-content-width: {{ site.max_width }};
 /* =========================================================
    AI2Lab Projects
    ========================================================= */
-
 .projects-grid {
   row-gap: 2rem;
 }
@@ -1133,14 +1132,14 @@ $max-content-width: {{ site.max_width }};
 
 .project-title {
   margin-bottom: 0.65rem;
-  color: #a6192e;
+  color: #000000;
   font-size: 1.35rem;
   font-weight: 600;
   line-height: 1.3;
 }
 
 .project-card:hover .project-title {
-  color: #7f1223;
+  color: #000000;
 }
 
 .project-description {
