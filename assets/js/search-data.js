@@ -747,11 +747,6 @@ ninja.data = [{
           description: "Congratulations to Drs. Souza and Bento on having an Alberta Innovates LEVMAX grant approved!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2023-12-01_souza-and-bento-have-alberta-innovates-levmax-grant-approved.html";
-            },},{id: "news-new-paper-published-in-stroke",
-          title: 'New paper published in Stroke',
-          description: "Our latest study investigates artificial intelligence methods for improving stroke imaging analysis.",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2015-12-17.html";
             },},{id: "people-anik-das",
           title: 'Anik_das',
           description: "Research Assistant",
