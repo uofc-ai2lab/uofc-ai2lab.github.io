@@ -1167,18 +1167,18 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2-detection-of-regional-biomarkers-of-brain-ageing-using-magnetic-resonance-imaging",
-          title: 'Project 2: Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging...',
+            },},{id: "projects-detection-of-regional-biomarkers-of-brain-ageing-using-magnetic-resonance-imaging",
+          title: 'Detection of Regional Biomarkers of Brain Ageing using Magnetic Resonance Imaging',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
-          title: 'Project 3: Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable...',
+            },},{id: "projects-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
+          title: 'Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable Models',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4-what-goes-where-a-garbage-classification-system-based-on-images-and-natural-language",
-          title: 'Project 4: What goes where? A Garbage Classification system based on Images and...',
+            },},{id: "projects-what-goes-where-a-garbage-classification-system-based-on-images-and-natural-language",
+          title: 'What goes where? A Garbage Classification system based on Images and Natural Language...',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
