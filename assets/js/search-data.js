@@ -1172,8 +1172,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
-          title: 'Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable Models',
+            },},{id: "projects-project-3-machine-learning-for-heterogeneous-brain-mri-bridging-the-gap-to-generalizable-models",
+          title: 'Project 3: Machine Learning for Heterogeneous Brain MRI: Bridging the Gap to Generalizable...',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
