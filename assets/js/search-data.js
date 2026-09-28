@@ -397,6 +397,356 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
+            },},{id: "news-dr-ospel-bento-goyal-and-souza-awarded-rsna-grant",
+          title: 'Dr. Ospel, Bento, Goyal and Souza awarded RSNA grant',
+          description: "Congratulations to Dr. Ospel (PI) and Drs. Bento, Goyal, and Souza (co-PIs) on being awarded an RSNA Research Fellow Grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2015-05-01_dr-ospel-bento-goyal-and-souza-awarded-rsna-grant.html";
+            },},{id: "news-harshal-patel-and-maheen-hossain-receive-alberta-innovates-summer-research-studentships",
+          title: 'Harshal Patel and Maheen Hossain receive Alberta Innovates Summer Research Studentships',
+          description: "Congratulations to Harshal Patel and Maheen Hossain on getting the Alberta Innovates Summer Research Studentship! Welcome to our team this summer!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-03-01_harshal-patel-and-maheen-hossain-receive-alberta-innovates-summer-research-studentships.html";
+            },},{id: "news-lucas-ion-receives-nserc-usra-award",
+          title: 'Lucas Ion receives NSERC USRA award',
+          description: "Congratulations to Lucas Ion on getting an NSERC USRA award! We are happy to have Lucas on our team this summer!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-03-01_lucas-ion-receives-nserc-usra-award.html";
+            },},{id: "news-dr-souza-receives-first-nserc-discovery-grant",
+          title: 'Dr. Souza receives first NSERC Discovery Grant',
+          description: "Congratulations to Dr. Souza on getting his first NSERC Discovery Grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-04-01_dr-souza-receives-first-nserc-discovery-grant.html";
+            },},{id: "news-dr-souza-receives-hbi-early-mid-career-research-support-fund",
+          title: 'Dr. Souza receives HBI Early/Mid-Career Research Support Fund',
+          description: "Congratulations to Dr. Souza on receiving the HBI Early/Mid-Career (E/MC) Research Support Fund!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-04-01_dr-souza-receives-hbi-early-mid-career-research-support-fund.html";
+            },},{id: "news-youssef-beauferris-receives-alberta-graduate-excellence-scholarship",
+          title: 'Youssef Beauferris receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Youssef Beauferris on getting the Alberta Graduate Excellence Scholarships award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-04-01_youssef-beauferris-receives-alberta-graduate-excellence-scholarship.html";
+            },},{id: "news-youssef-beauferris-receives-conp-scholar-award",
+          title: 'Youssef Beauferris receives CONP scholar award',
+          description: "Congratulations to Youssef Beauferris on getting the CONP scholar award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-04-01_youssef-beauferris-receives-conp-scholar-award.html";
+            },},{id: "news-mike-lasby-receives-elizabeth-cannon-scholarship",
+          title: 'Mike Lasby receives Elizabeth Cannon scholarship',
+          description: "Congratulations to Mike Lasby on getting the Elizabeth Cannon scholarship on entrepreneurial thinking!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-05-01_mike-lasby-receives-elizabeth-cannon-scholarship.html";
+            },},{id: "news-rodrigo-berto-and-neha-gianchandani-receive-brain-create-scholarships",
+          title: 'Rodrigo Berto and Neha Gianchandani receive BRAIN CREATE scholarships',
+          description: "Congratulations to Rodrigo Berto and Neha Gianchandani on getting BRAIN CREATE scholarships!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-06-01_rodrigo-berto-and-neha-gianchandani-receive-brain-create-scholarships.html";
+            },},{id: "news-wallace-paper-accepted-at-mrm",
+          title: 'Wallace paper accepted at MRM',
+          description: "Congratulations to Wallace from the VIL lab. His paper on extraction of a vascular function for a fully automated dynamic contrast-enhanced MR brain image processing pipeline was accepted at MRM.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-09-01_wallace-paper-accepted-at-mrm.html";
+            },},{id: "news-neha-receives-alberta-innovates-graduate-student-scholarship",
+          title: 'Neha receives Alberta Innovates Graduate Student Scholarship',
+          description: "Congratulations to Neha on getting the 2021 Alberta Innovates Graduate Student Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-10-01_neha-receives-alberta-innovates-graduate-student-scholarship.html";
+            },},{id: "news-ai2lab-open-science-initiative-featured-by-hotchkiss-brain-institute",
+          title: 'AI2Lab open science initiative featured by Hotchkiss Brain Institute',
+          description: "Our lab open science initiative was featured by the Hotchkiss Brain Institute in University of Calgary news!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-11-01_ai2lab-open-science-initiative-featured-by-hotchkiss-brain-institute.html";
+            },},{id: "news-neha-receives-manipal-university-jaipur-gold-medal",
+          title: 'Neha receives Manipal University Jaipur gold medal',
+          description: "Congratulations to Neha! She received the gold medal for achieving the highest GPA in her Computer Science class at Manipal University Jaipur!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2021-11-01_neha-receives-manipal-university-jaipur-gold-medal.html";
+            },},{id: "news-collaborator-dr-nikita-nogovitsyn-publishes-schizophrenia-research-paper",
+          title: 'Collaborator Dr. Nikita Nogovitsyn publishes Schizophrenia Research paper',
+          description: "Congratulations to our collaborator Dr. Nikita Nogovitsyn on his Schizophrenia Research paper!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-01-01_collaborator-dr-nikita-nogovitsyn-publishes-schizophrenia-research-paper.html";
+            },},{id: "news-two-exchange-students-approved-for-mitacs-globalink-research-internship",
+          title: 'Two exchange students approved for Mitacs Globalink Research Internship',
+          description: "Our lab had two exchange students approved for the Mitacs Globalink Research Internship. The fully-funded students joined our lab in May 2022.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-01-01_two-exchange-students-approved-for-mitacs-globalink-research-internship.html";
+            },},{id: "news-youssef-master-s-work-accepted-at-isbi-2022",
+          title: 'Youssef master’s work accepted at ISBI 2022',
+          description: "Congratulations to Youssef! His master&#39;s work was accepted for publication at the 2022 ISBI.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-01-01_youssef-master-s-work-accepted-at-isbi-2022.html";
+            },},{id: "news-alexandre-rgb-d-survey-trends-on-deepai",
+          title: 'Alexandre RGB-D survey trends on DeepAI',
+          description: "Congratulations to Alexandre! His RGB-D datasets survey is trending on the DeepAI platform.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-02-01_alexandre-rgb-d-survey-trends-on-deepai.html";
+            },},{id: "news-dr-souza-receives-nvidia-academic-hardware-grant",
+          title: 'Dr. Souza receives NVIDIA Academic Hardware Grant',
+          description: "Congratulations to Dr. Souza for being awarded the NVIDIA Academic Hardware Grant Program!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-03-01_dr-souza-receives-nvidia-academic-hardware-grant.html";
+            },},{id: "news-neha-receives-third-best-poster-at-ucalgary-women-in-data-science",
+          title: 'Neha receives third best poster at UCalgary Women in Data Science',
+          description: "Congratulations to Neha for receiving the 3rd best poster award at the UCalgary Women in Data Science!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-03-01_neha-receives-third-best-poster-at-ucalgary-women-in-data-science.html";
+            },},{id: "news-ai2lab-trainees-attend-ai-week",
+          title: 'AI2Lab trainees attend AI Week',
+          description: "A large contingent of our trainees attended AI Week. It was a great opportunity to connect with AI researchers.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-05-01_ai2lab-trainees-attend-ai-week.html";
+            },},{id: "news-dr-souza-receives-departmental-early-research-excellence-award",
+          title: 'Dr. Souza receives Departmental Early Research Excellence Award',
+          description: "Congratulations to Dr. Souza on receiving the Departmental Early Research Excellence award from the Electrical and Software Engineering Department of the Schulich School of Engineering.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-05-01_dr-souza-receives-departmental-early-research-excellence-award.html";
+            },},{id: "news-alexandre-rgb-d-datasets-survey-accepted-at-cviu",
+          title: 'Alexandre RGB-D datasets survey accepted at CVIU',
+          description: "Congratulations to Alexandre! His RGB-D datasets survey was accepted at CVIU.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-06-01_alexandre-rgb-d-datasets-survey-accepted-at-cviu.html";
+            },},{id: "news-dr-bento-joins-ai2lab",
+          title: 'Dr. Bento joins AI2Lab',
+          description: "Welcome to Dr. Bento, the newest faculty member to join our lab. She runs an NSERC-funded program on data harmonization, bias and fairness in AI.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-06-01_dr-bento-joins-ai2lab.html";
+            },},{id: "news-hanna-and-natalia-receive-brain-create-scholarships",
+          title: 'Hanna and Natalia receive BRAIN CREATE scholarships',
+          description: "Congratulations to Hanna and Natalia for being awarded BRAIN CREATE scholarships!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-06-01_hanna-and-natalia-receive-brain-create-scholarships.html";
+            },},{id: "news-mri-reconstruction-challenge-paper-accepted-at-frontiers-in-neuroscience",
+          title: 'MRI reconstruction challenge paper accepted at Frontiers in Neuroscience',
+          description: "Congratulations to Youssef and our collaborators. Our MRI reconstruction challenge paper was accepted at Frontiers in Neuroscience!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-06-01_mri-reconstruction-challenge-paper-accepted-at-frontiers-in-neuroscience.html";
+            },},{id: "news-neha-receives-grace-hopper-celebration-scholarship",
+          title: 'Neha receives Grace Hopper celebration scholarship',
+          description: "Congratulations to Neha for receiving the Grace Hopper celebration scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-06-01_neha-receives-grace-hopper-celebration-scholarship.html";
+            },},{id: "news-youssef-and-neha-represent-ai2lab-at-deep-learning-for-medical-imaging-school",
+          title: 'Youssef and Neha represent AI2Lab at Deep Learning for Medical Imaging School',
+          description: "Youssef and Neha are representing our lab at the Deep Learning for Medical Imaging School!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-06-01_youssef-and-neha-represent-ai2lab-at-deep-learning-for-medical-imaging-school.html";
+            },},{id: "news-domain-adaptation-benchmark-accepted-at-frontiers-in-neuroscience",
+          title: 'Domain adaptation benchmark accepted at Frontiers in Neuroscience',
+          description: "Congratulations to Parisa and our collaborators. Our domain adaptation benchmark paper was accepted at Frontiers in Neuroscience!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-08-01_domain-adaptation-benchmark-accepted-at-frontiers-in-neuroscience.html";
+            },},{id: "news-abbas-mahsa-and-rodrigo-win-ages-scholarships",
+          title: 'Abbas, Mahsa and Rodrigo win AGES scholarships',
+          description: "Congratulations to Abbas, Mahsa, and Rodrigo for winning Alberta Graduate Excellence Scholarships!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-10-01_abbas-mahsa-and-rodrigo-win-ages-scholarships.html";
+            },},{id: "news-alexandre-completes-cs-phd-candidacy-exam",
+          title: 'Alexandre completes CS PhD candidacy exam',
+          description: "Congratulations to Alexandre on his successful CS PhD candidacy exam!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-11-01_alexandre-completes-cs-phd-candidacy-exam.html";
+            },},{id: "news-amin-paper-accepted-at-empirical-software-engineering",
+          title: 'Amin paper accepted at Empirical Software Engineering',
+          description: "Congratulations to Amin! His paper evaluating the robustness of federated learning has been accepted at Empirical Software Engineering!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-11-01_amin-paper-accepted-at-empirical-software-engineering.html";
+            },},{id: "news-javier-guerra-receives-4th-best-paper-at-sipaim",
+          title: 'Javier Guerra receives 4th best paper at SIPAIM',
+          description: "Congratulations to Javier Guerra, supervised by Dr. Frayne and co-supervised by Dr. Bento, on receiving the 4th best paper at the SIPAIM conference!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-11-01_javier-guerra-receives-4th-best-paper-at-sipaim.html";
+            },},{id: "news-rodrigo-receives-mitacs-business-strategy-internship",
+          title: 'Rodrigo receives MITACS Business Strategy Internship',
+          description: "Congratulations to Rodrigo on receiving a MITACS Business Strategy Internship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-11-01_rodrigo-receives-mitacs-business-strategy-internship.html";
+            },},{id: "news-youssef-successfully-completes-bme-master-s-defence",
+          title: 'Youssef successfully completes BME master’s defence',
+          description: "Congratulations to Youssef on his successful BME master&#39;s defense!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-11-01_youssef-successfully-completes-bme-master-s-defence.html";
+            },},{id: "news-abbas-selected-for-altaml-winter-internship-cohort",
+          title: 'Abbas selected for AltaML winter internship cohort',
+          description: "Congratulations to Abbas on being selected for the AltaML winter internship cohort!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-12-01_abbas-selected-for-altaml-winter-internship-cohort.html";
+            },},{id: "news-hanna-and-rodrigo-challenge-proposal-accepted-at-isbi-2023",
+          title: 'Hanna and Rodrigo challenge proposal accepted at ISBI 2023',
+          description: "Congratulations to Hanna and Rodrigo on having a challenge proposal accepted at the 2023 ISBI!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-12-01_hanna-and-rodrigo-challenge-proposal-accepted-at-isbi-2023.html";
+            },},{id: "news-parisa-successfully-completes-ese-master-s-defence",
+          title: 'Parisa successfully completes ESE master’s defence',
+          description: "Congratulations to Parisa on her successful ESE master&#39;s defense!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2022-12-01_parisa-successfully-completes-ese-master-s-defence.html";
+            },},{id: "news-dr-bento-awarded-nserc-alliance-grant",
+          title: 'Dr. Bento awarded NSERC Alliance grant',
+          description: "Congratulations to Dr. Bento on being awarded an NSERC Alliance – Alberta Innovates Advance stream I grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-01-01_dr-bento-awarded-nserc-alliance-grant-2.html";
+            },},{id: "news-pedro-receives-university-of-calgary-eyes-high-postdoctoral-fellowship",
+          title: 'Pedro receives University of Calgary Eyes High Postdoctoral Fellowship',
+          description: "Congratulations to Pedro on receiving the University of Calgary Eyes High Postdoctoral Fellowship.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-01-01_pedro-receives-university-of-calgary-eyes-high-postdoctoral-fellowship.html";
+            },},{id: "news-souza-deshpande-and-bento-awarded-nserc-alliance-grant",
+          title: 'Souza, Deshpande and Bento awarded NSERC Alliance grant',
+          description: "Congratulations to Drs. Souza, Deshpande, and Bento on being awarded an NSERC Alliance – Alberta Innovates Advance stream II grant!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-01-01_souza-deshpande-and-bento-awarded-nserc-alliance-grant.html";
+            },},{id: "news-ai2lab-members-receive-upper-bound-travel-bursaries",
+          title: 'AI2Lab members receive Upper Bound travel bursaries',
+          description: "Congratulations to all the AI2Lab members that received the Upper Bound travel bursary!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-02-01_ai2lab-members-receive-upper-bound-travel-bursaries.html";
+            },},{id: "news-amin-paper-extended-to-2023-icse",
+          title: 'Amin paper extended to 2023 ICSE',
+          description: "Congratulations to Amin on getting an extension of his paper investigating the robustness of federated learning to the 2023 ICSE!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-02-01_amin-paper-extended-to-2023-icse.html";
+            },},{id: "news-hanna-and-rodrigo-ismrm-abstract-selected-for-oral-presentation",
+          title: 'Hanna and Rodrigo ISMRM abstract selected for oral presentation',
+          description: "Congratulations to Hanna and Rodrigo on their ISMRM abstract being accepted for an oral presentation! Less than 18% of abstracts are selected for oral presentations.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-02-01_hanna-and-rodrigo-ismrm-abstract-selected-for-oral-presentation.html";
+            },},{id: "news-mahsa-receives-multiple-ta-awards",
+          title: 'Mahsa receives multiple TA awards',
+          description: "Congratulations to Mahsa on receiving awards for Fall 2022 TA of the Week, TA of the Semester, and SSE first-year Best TA!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-02-01_mahsa-receives-multiple-ta-awards.html";
+            },},{id: "news-dr-souza-receives-schulich-teaching-excellence-award",
+          title: 'Dr. Souza receives Schulich teaching excellence award',
+          description: "Congratulations to Dr. Souza on receiving the teaching excellence award from the Schulich School of Engineering!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-03-01_dr-souza-receives-schulich-teaching-excellence-award.html";
+            },},{id: "news-edited-mrs-reconstruction-challenge-held-at-isbi-2023",
+          title: 'Edited-MRS reconstruction challenge held at ISBI 2023',
+          description: "Congratulations to Hanna and Rodrigo on organizing a successful Edited-MRS reconstruction challenge during the 2023 ISBI. The team Deep Spectral Divers from MICLab won the challenge!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-04-01_edited-mrs-reconstruction-challenge-held-at-isbi-2023.html";
+            },},{id: "news-hanna-and-rodrigo-work-featured-in-computer-vision-news",
+          title: 'Hanna and Rodrigo work featured in Computer Vision News',
+          description: "Hanna and Rodrigo&#39;s work was featured in Computer Vision News!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-04-01_hanna-and-rodrigo-work-featured-in-computer-vision-news.html";
+            },},{id: "news-neha-gets-internship-at-altaml",
+          title: 'Neha gets internship at AltaML',
+          description: "Congratulations to Neha on getting an internship at AltaML!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-04-01_neha-gets-internship-at-altaml.html";
+            },},{id: "news-armin-receives-alberta-innovates-summer-research-studentship",
+          title: 'Armin receives Alberta Innovates Summer Research Studentship',
+          description: "Congratulations to Armin who received the Alberta Innovates Summer Research Studentship and joined our lab for summer research on AI and imaging!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-05-01_armin-receives-alberta-innovates-summer-research-studentship.html";
+            },},{id: "news-farzaneh-receives-hbi-international-graduate-recruitment-scholarship",
+          title: 'Farzaneh receives HBI International Graduate Recruitment Scholarship',
+          description: "Congratulations to Farzaneh who received the HBI International Graduate Recruitment Scholarship and is joining our lab Fall 2023 for her PhD!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-05-01_farzaneh-receives-hbi-international-graduate-recruitment-scholarship.html";
+            },},{id: "news-yogesh-timothy-swastik-mansi-and-akil-receive-mitacs-scholarships",
+          title: 'Yogesh, Timothy, Swastik, Mansi and Akil receive MITACS scholarships',
+          description: "Congratulations and welcome to Yogesh, Timothy, Swastik, Mansi and Akil! They received a MITACS Globalink scholarship to spend the summer doing research in our lab!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-05-01_yogesh-timothy-swastik-mansi-and-akil-receive-mitacs-scholarships.html";
+            },},{id: "news-abbas-wins-alberta-graduate-excellence-scholarship-for-second-time",
+          title: 'Abbas wins Alberta Graduate Excellence Scholarship for second time',
+          description: "Congratulations to Abbas for winning the Alberta Graduate Excellence Scholarship for the second time!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-06-01_abbas-wins-alberta-graduate-excellence-scholarship-for-second-time.html";
+            },},{id: "news-natalia-wins-alberta-graduate-excellence-research-scholarship",
+          title: 'Natalia wins Alberta Graduate Excellence Research Scholarship',
+          description: "Congratulations to Natalia for winning the Alberta Graduate Excellence Research Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-06-01_natalia-wins-alberta-graduate-excellence-research-scholarship.html";
+            },},{id: "news-natalia-wins-nserc-master-s-scholarship",
+          title: 'Natalia wins NSERC master’s scholarship',
+          description: "Congratulations to Natalia for winning the competitive NSERC master&#39;s scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-06-01_natalia-wins-nserc-master-s-scholarship.html";
+            },},{id: "news-neha-and-mahsa-paper-accepted-at-icml-workshop",
+          title: 'Neha and Mahsa paper accepted at ICML workshop',
+          description: "Congratulations to Neha and Mahsa on having a paper accepted at the 2023 ICML workshop on Interpretable Machine Learning in Healthcare!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-06-01_neha-and-mahsa-paper-accepted-at-icml-workshop.html";
+            },},{id: "news-neha-presents-at-icml-healthcare-workshop",
+          title: 'Neha presents at ICML healthcare workshop',
+          description: "Neha presented her work in collaboration with Mahsa at the ICML workshop on Interpretable Machine Learning in Healthcare!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-07-01_neha-presents-at-icml-healthcare-workshop.html";
+            },},{id: "news-ai2lab-bids-farewell-to-mitacs-summer-students",
+          title: 'AI2Lab bids farewell to MITACS summer students',
+          description: "We bid our MITACS summer students farewell! It was a pleasure working with Timothy, Yogesh, Swastik, Mansi, and Akhil!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-08-01_ai2lab-bids-farewell-to-mitacs-summer-students.html";
+            },},{id: "news-hanna-receives-alberta-graduate-excellence-scholarship",
+          title: 'Hanna receives Alberta Graduate Excellence Scholarship',
+          description: "Congratulations to Hanna on receiving the Alberta Graduate Excellence Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-08-01_hanna-receives-alberta-graduate-excellence-scholarship-2.html";
+            },},{id: "news-mahsa-work-accepted-at-miccai-fairness-workshop",
+          title: 'Mahsa work accepted at MICCAI Fairness workshop',
+          description: "Congratulations to Mahsa on her work accepted at the 2023 MICCAI Workshop on Fairness of AI in Medical Imaging. The work was done in collaboration with Mansi, Akhil and Neha!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-08-01_mahsa-work-accepted-at-miccai-fairness-workshop.html";
+            },},{id: "news-neha-rodrigo-and-hanna-papers-accepted-at-miccai-workshop",
+          title: 'Neha, Rodrigo and Hanna papers accepted at MICCAI workshop',
+          description: "Congratulations to Neha, Rodrigo and Hanna on having their papers accepted at the 2023 MICCAI workshop on Machine Learning in Medical Imaging!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-08-01_neha-rodrigo-and-hanna-papers-accepted-at-miccai-workshop.html";
+            },},{id: "news-rodrigo-successfully-completes-msc-defence",
+          title: 'Rodrigo successfully completes MSc defence',
+          description: "Congratulations to Rodrigo on a successful MSc defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-08-01_rodrigo-successfully-completes-msc-defence.html";
+            },},{id: "news-abbas-paper-accepted-at-ieee-wacv",
+          title: 'Abbas paper accepted at IEEE WACV',
+          description: "Congratulations to Abbas and co-authors on having his paper titled &quot;Unsupervised Domain Adaptation of MRI Skull-stripping Trained on Adult Data to Newborns&quot; accepted at IEEE WACV!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-10-01_abbas-paper-accepted-at-ieee-wacv.html";
+            },},{id: "news-mahsa-wins-best-poster-award-at-miccai-faimi",
+          title: 'Mahsa wins best poster award at MICCAI FAIMI',
+          description: "Congratulations to Mahsa on receiving the best poster award at the MICCAI FAIMI workshop!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-10-01_mahsa-wins-best-poster-award-at-miccai-faimi.html";
+            },},{id: "news-neha-successfully-completes-msc-defence",
+          title: 'Neha successfully completes MSc defence',
+          description: "Congratulations to Neha on her successful MSc defence!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-11-01_neha-successfully-completes-msc-defence.html";
+            },},{id: "news-hanna-receives-2023-bme-research-excellence-award",
+          title: 'Hanna receives 2023 BME Research Excellence Award',
+          description: "Congratulations to Hanna on receiving the 2023 BME Research Excellence Award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-12-01_hanna-receives-2023-bme-research-excellence-award.html";
+            },},{id: "news-hanna-receives-university-of-calgary-graduate-studies-scholarship",
+          title: 'Hanna receives University of Calgary Graduate Studies Scholarship',
+          description: "Congratulations to Hanna on receiving the University of Calgary Graduate Studies Scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-12-01_hanna-receives-university-of-calgary-graduate-studies-scholarship.html";
+            },},{id: "news-mohammad-completes-phd-candidacy-exam",
+          title: 'Mohammad completes PhD candidacy exam',
+          description: "Congratulations to Mohammad on his successful PhD candidacy exam!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-12-01_mohammad-completes-phd-candidacy-exam.html";
+            },},{id: "news-natalia-receives-alberta-innovates-graduate-student-scholarship",
+          title: 'Natalia receives Alberta Innovates Graduate Student Scholarship',
+          description: "Congratulations to Natalia on receiving the Alberta Innovates Graduate Student scholarship!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-12-01_natalia-receives-alberta-innovates-graduate-student-scholarship.html";
+            },},{id: "news-pedro-receives-harley-hotchkiss-samuel-weiss-postdoctoral-fellowship",
+          title: 'Pedro receives Harley Hotchkiss–Samuel Weiss Postdoctoral Fellowship',
+          description: "Congratulations to Pedro on receiving the Harley Hotchkiss – Samuel Weiss Postdoctoral Fellowship from the Hotchkiss Brain Institute.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-12-01_pedro-receives-harley-hotchkiss-samuel-weiss-postdoctoral-fellowship.html";
+            },},{id: "news-souza-and-bento-have-alberta-innovates-levmax-grant-approved",
+          title: 'Souza and Bento have Alberta Innovates LEVMAX grant approved',
+          description: "Congratulations to Drs. Souza and Bento on having an Alberta Innovates LEVMAX grant approved!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2023-12-01_souza-and-bento-have-alberta-innovates-levmax-grant-approved.html";
             },},{id: "news-new-paper-published-in-stroke",
           title: 'New paper published in Stroke',
           description: "Our latest study investigates artificial intelligence methods for improving stroke imaging analysis.",
