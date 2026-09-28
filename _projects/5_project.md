@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 5: Fairness in Machine Learning"
+title: "Fairness in Machine Learning"
 description: 
 img: 
 importance: 1
