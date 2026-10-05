@@ -1047,16 +1047,16 @@ ninja.data = [{
           description: "Congratulations to Farzaneh Dehghani on being awarded the Alberta Graduate Excellence Scholarship (AGES)!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-01-01_farzaneh-dehghani-receives-alberta-graduate-excellence-scholarship.html";
-            },},{id: "news-ai2lab-team-volunteers-at-women-in-engineering-day-2026",
-          title: 'AI2Lab team volunteers at Women in Engineering Day 2026',
-          description: "A team from AI2Lab successfully participated as volunteers in Women in Engineering Day 2026!",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-02-01_ai2lab-team-volunteers-at-women-in-engineering-day-2026.html";
             },},{id: "news-farzaneh-dehghani-completes-bme-stage-2-candidacy-defence",
           title: 'Farzaneh Dehghani completes BME Stage 2 candidacy defence',
           description: "Congratulations to Farzaneh Dehghani on a successful BME Stage 2 candidacy (Field of Study) defence!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-02-01_farzaneh-dehghani-completes-bme-stage-2-candidacy-defence.html";
+            },},{id: "news-ai2lab-team-volunteers-at-women-in-engineering-day-2026",
+          title: 'AI2Lab team volunteers at Women in Engineering Day 2026',
+          description: "A team from AI2Lab successfully participated as volunteers in Women in Engineering Day 2026!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-18_ai2lab-team-volunteers-at-women-in-engineering-day-2026.html";
             },},{id: "news-arshin-and-anik-works-accepted-at-ismrm-2026",
           title: 'Arshin and Anik works accepted at ISMRM 2026',
           description: "Congratulations to Arshin and Anik on having their works accepted at ISMRM 2026!",
