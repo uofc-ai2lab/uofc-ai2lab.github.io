@@ -1046,7 +1046,7 @@ ninja.data = [{
           title: 'Farzaneh Dehghani receives Alberta Graduate Excellence Scholarship',
           description: "Congratulations to Farzaneh Dehghani on being awarded the Alberta Graduate Excellence Scholarship (AGES)!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-01-01_farzaneh-dehghani-receives-alberta-graduate-excellence-scholarship.html";
+              window.location.href = "/news/announcement_2026-01-12_farzaneh-dehghani-receives-alberta-graduate-excellence-scholarship.html";
             },},{id: "news-farzaneh-dehghani-completes-bme-stage-2-candidacy-defence",
           title: 'Farzaneh Dehghani completes BME Stage 2 candidacy defence',
           description: "Congratulations to Farzaneh Dehghani on a successful BME Stage 2 candidacy (Field of Study) defence!",
