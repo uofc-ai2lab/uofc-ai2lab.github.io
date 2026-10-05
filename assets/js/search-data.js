@@ -1127,6 +1127,11 @@ ninja.data = [{
           description: "Congratulations to Mansi on her successful MSc Defence!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-08-30_mansi-msc-defence.html";
+            },},{id: "news-farzaneh-received-best-paper-runner-up-award-at-miccai-2026",
+          title: 'Farzaneh received Best Paper Runner-Up Award at MICCAI 2026',
+          description: "Congratulations to Farzaneh on receiving the Best Paper Runner-Up award at MICCAI 2026!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-09-30_farzaneh-miccai-award.html";
             },},{id: "people-anik-das",
           title: 'Anik_das',
           description: "Research Assistant",
