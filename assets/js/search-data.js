@@ -1066,7 +1066,7 @@ ninja.data = [{
           title: 'Zeyad paper accepted at MIDL',
           description: "Congratulations to Zeyad on having his paper accepted at MIDL!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-02-01_zeyad-paper-accepted-at-midl.html";
+              window.location.href = "/news/announcement_2026-02-25_zeyad-paper-accepted-at-midl.html";
             },},{id: "news-dr-bento-highlighted-in-women-led-research-feature",
           title: 'Dr. Bento highlighted in Women-Led Research feature',
           description: "Celebrating Women-Led Research: Dr. Bento was highlighted as one of the women researchers helping shape the future of research in Canada.",
