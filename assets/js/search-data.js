@@ -1076,7 +1076,7 @@ ninja.data = [{
           title: 'Saad Ashraf successfully completes MSc defence',
           description: "Congratulations to Saad Ashraf on his successful MSc Defence!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-03-01_saad-ashraf-successfully-completes-msc-defence.html";
+              window.location.href = "/news/announcement_2026-03-29_saad-ashraf-successfully-completes-msc-defence.html";
             },},{id: "news-dr-bento-receives-women-in-engineering-amp-geoscience-champion-award",
           title: 'Dr. Bento receives Women in Engineering &amp;amp; Geoscience Champion Award',
           description: "Congratulations to Dr. Bento on receiving the Women in Engineering &amp; Geoscience Champion Award!",
