@@ -1086,7 +1086,7 @@ ninja.data = [{
           title: 'Brooke paper accepted at EMBC 2026',
           description: "Congratulations to Brooke on having her paper accepted at EMBC 2026!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-04-01_brooke-paper-accepted-at-embc-2026.html";
+              window.location.href = "/news/announcement_2026-04-30_brooke-embc-paper.html";
             },},{id: "news-zeyad-successfully-completes-msc-defence",
           title: 'Zeyad successfully completes MSc defence',
           description: "Congratulations to Zeyad on his successful MSc Defence!",
