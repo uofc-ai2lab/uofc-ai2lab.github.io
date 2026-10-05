@@ -1051,7 +1051,7 @@ ninja.data = [{
           title: 'Farzaneh Dehghani completes BME Stage 2 candidacy defence',
           description: "Congratulations to Farzaneh Dehghani on a successful BME Stage 2 candidacy (Field of Study) defence!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-02-01_farzaneh-dehghani-completes-bme-stage-2-candidacy-defence.html";
+              window.location.href = "/news/announcement_2026-02-14_farzaneh-dehghani-completes-bme-stage-2-candidacy-defence.html";
             },},{id: "news-ai2lab-team-volunteers-at-women-in-engineering-day-2026",
           title: 'AI2Lab team volunteers at Women in Engineering Day 2026',
           description: "A team from AI2Lab successfully participated as volunteers in Women in Engineering Day 2026!",
