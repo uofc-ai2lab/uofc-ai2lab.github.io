@@ -1091,7 +1091,7 @@ ninja.data = [{
           title: 'Zeyad successfully completes MSc defence',
           description: "Congratulations to Zeyad on his successful MSc Defence!",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-07-01_zeyad-successfully-completes-msc-defence.html";
+              window.location.href = "/news/announcement_2026-07-28_zeyad-msc-defence.html";
             },},{id: "news-mansi-presents-their-work",
           title: 'Mansi presents their work',
           description: "Congratulations to Mansi for presenting their work!",
