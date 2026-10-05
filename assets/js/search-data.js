@@ -1057,11 +1057,6 @@ ninja.data = [{
           description: "Congratulations to Arshin and Anik on having their works accepted at ISMRM 2026!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-02-01_arshin-and-anik-works-accepted-at-ismrm-2026.html";
-            },},{id: "news-dr-bento-highlighted-in-women-led-research-feature",
-          title: 'Dr. Bento highlighted in Women-Led Research feature',
-          description: "Celebrating Women-Led Research: Dr. Bento was highlighted as one of the women researchers helping shape the future of research in Canada.",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-02-01_dr-bento-highlighted-in-women-led-research-feature.html";
             },},{id: "news-farzaneh-dehghani-completes-bme-stage-2-candidacy-defence",
           title: 'Farzaneh Dehghani completes BME Stage 2 candidacy defence',
           description: "Congratulations to Farzaneh Dehghani on a successful BME Stage 2 candidacy (Field of Study) defence!",
@@ -1072,6 +1067,11 @@ ninja.data = [{
           description: "Congratulations to Zeyad on having his paper accepted at MIDL!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-02-01_zeyad-paper-accepted-at-midl.html";
+            },},{id: "news-dr-bento-highlighted-in-women-led-research-feature",
+          title: 'Dr. Bento highlighted in Women-Led Research feature',
+          description: "Celebrating Women-Led Research: Dr. Bento was highlighted as one of the women researchers helping shape the future of research in Canada.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-02-27_dr-bento-highlighted-in-women-led-research-feature.html";
             },},{id: "news-saad-ashraf-successfully-completes-msc-defence",
           title: 'Saad Ashraf successfully completes MSc defence',
           description: "Congratulations to Saad Ashraf on his successful MSc Defence!",
