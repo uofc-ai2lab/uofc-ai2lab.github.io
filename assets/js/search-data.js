@@ -1087,16 +1087,16 @@ ninja.data = [{
           description: "Congratulations to Brooke on having her paper accepted at EMBC 2026!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-04-01_brooke-paper-accepted-at-embc-2026.html";
-            },},{id: "news-mansi-presents-their-work",
-          title: 'Mansi presents their work',
-          description: "Congratulations to Mansi for presenting their work!",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-07-01_mansi-presents-their-work.html";
             },},{id: "news-zeyad-successfully-completes-msc-defence",
           title: 'Zeyad successfully completes MSc defence',
           description: "Congratulations to Zeyad on his successful MSc Defence!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-07-01_zeyad-successfully-completes-msc-defence.html";
+            },},{id: "news-mansi-presents-their-work",
+          title: 'Mansi presents their work',
+          description: "Congratulations to Mansi for presenting their work!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-07-29_mansi-poster.html";
             },},{id: "news-brooke-presents-at-ieee-embc-2026",
           title: 'Brooke presents at IEEE EMBC 2026',
           description: "Congratulations to Brooke for presenting their work at the IEEE EMBC 2026!",
