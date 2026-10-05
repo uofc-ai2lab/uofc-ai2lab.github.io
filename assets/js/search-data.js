@@ -1072,16 +1072,16 @@ ninja.data = [{
           description: "Congratulations to Zeyad on having his paper accepted at MIDL!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-02-01_zeyad-paper-accepted-at-midl.html";
-            },},{id: "news-dr-bento-receives-women-in-engineering-amp-geoscience-champion-award",
-          title: 'Dr. Bento receives Women in Engineering &amp;amp; Geoscience Champion Award',
-          description: "Congratulations to Dr. Bento on receiving the Women in Engineering &amp; Geoscience Champion Award!",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2026-03-01_dr-bento-receives-women-in-engineering-geoscience-champion-award.html";
             },},{id: "news-saad-ashraf-successfully-completes-msc-defence",
           title: 'Saad Ashraf successfully completes MSc defence',
           description: "Congratulations to Saad Ashraf on his successful MSc Defence!",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2026-03-01_saad-ashraf-successfully-completes-msc-defence.html";
+            },},{id: "news-dr-bento-receives-women-in-engineering-amp-geoscience-champion-award",
+          title: 'Dr. Bento receives Women in Engineering &amp;amp; Geoscience Champion Award',
+          description: "Congratulations to Dr. Bento on receiving the Women in Engineering &amp; Geoscience Champion Award!",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2026-03-30_dr-bento-receives-women-in-engineering-geoscience-champion-award.html";
             },},{id: "news-brooke-paper-accepted-at-embc-2026",
           title: 'Brooke paper accepted at EMBC 2026',
           description: "Congratulations to Brooke on having her paper accepted at EMBC 2026!",
