@@ -1182,3 +1182,30 @@ color: #fff;
   }
 }
 
+
+
+
+
+
+
+
+
+/* =========================================================
+   AI2Lab Publications Page
+   ========================================================= */
+
+.publication-links {
+  display: inline-flex;
+  gap: 0.65rem;
+  margin-left: 0.5rem;
+  font-size: 0.85em;
+}
+
+.publication-links a {
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
