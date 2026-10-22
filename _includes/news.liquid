@@ -1,90 +1,155 @@
-<div class="ai2lab-news-cards">
+<div class="ai2lab-news-wrapper">
 
-  {% if site.news != blank %}
+  <div class="ai2lab-news-cards">
 
-    {% assign news = site.news | sort: 'date' | reverse %}
+    {% if site.news != blank %}
 
-    {% if include.limit and page.announcements.limit %}
-      {% assign news_limit = page.announcements.limit %}
-    {% else %}
-      {% assign news_limit = news.size %}
-    {% endif %}
+      {% assign news = site.news | sort: 'date' | reverse %}
 
+      {% for item in news %}
 
-    {% for item in news limit: news_limit %}
+        <article class="ai2lab-news-card">
 
-      <article class="ai2lab-news-card">
+          {% if item.image %}
+            <a href="{{ item.url | relative_url }}"
+               class="ai2lab-news-image-link">
+              <img
+                src="{{ item.image | relative_url }}"
+                alt="{{ item.title }}"
+                class="ai2lab-news-image"
+                loading="lazy">
+            </a>
+          {% endif %}
 
+          <div class="ai2lab-news-card-content">
 
-        {% if item.image %}
-
-          <a
-            href="{{ item.url | relative_url }}"
-            class="ai2lab-news-image-link"
-          >
-
-            <img
-              src="{{ item.image | relative_url }}"
-              alt="{{ item.title }}"
-              class="ai2lab-news-image"
-              loading="lazy"
-            >
-
-          </a>
-
-        {% endif %}
-
-
-        <div class="ai2lab-news-card-content">
-
-          <div class="ai2lab-news-date">
-            {{ item.date | date: '%B %Y' }}
-          </div>
-
-
-          {% if item.inline %}
-
-            <div class="ai2lab-news-title">
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+            <div class="ai2lab-news-date">
+              {{ item.date | date: '%B %Y' }}
             </div>
 
-          {% else %}
+            {% if item.inline %}
+              <div class="ai2lab-news-title">
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              </div>
+            {% else %}
+              <h3 class="ai2lab-news-title">
+                <a href="{{ item.url | relative_url }}">
+                  {{ item.title }}
+                </a>
+              </h3>
+            {% endif %}
 
-            <h3 class="ai2lab-news-title">
+            {% if item.description %}
+              <p class="ai2lab-news-description">
+                {{ item.description }}
+              </p>
+            {% elsif item.excerpt %}
+              <p class="ai2lab-news-description">
+                {{ item.excerpt | strip_html | truncate: 140 }}
+              </p>
+            {% endif %}
 
-              <a href="{{ item.url | relative_url }}">
-                {{ item.title }}
-              </a>
+          </div>
+        </article>
 
-            </h3>
+      {% endfor %}
 
-          {% endif %}
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
 
+  </div>
 
-          {% if item.description %}
+  <nav class="news-pagination" aria-label="News pagination">
+    <button type="button" class="news-page-prev" disabled>
+      &laquo; Previous
+    </button>
 
-            <p class="ai2lab-news-description">
-              {{ item.description }}
-            </p>
+    <div class="news-page-numbers"></div>
 
-          {% elsif item.excerpt %}
+    <button type="button" class="news-page-next">
+      Next &raquo;
+    </button>
+  </nav>
 
-            <p class="ai2lab-news-description">
-              {{ item.excerpt | strip_html | truncate: 140 }}
-            </p>
-
-          {% endif %}
-
-        </div>
-
-      </article>
-
-    {% endfor %}
-
-  {% else %}
-
-    <p>No news so far...</p>
-
-  {% endif %}
+  <p class="news-page-status" aria-live="polite"></p>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.ai2lab-news-wrapper').forEach(function (wrapper) {
+    if (wrapper.dataset.paginationReady === 'true') return;
+    wrapper.dataset.paginationReady = 'true';
+
+    const cards = Array.from(
+      wrapper.querySelectorAll('.ai2lab-news-card')
+    );
+    const prev = wrapper.querySelector('.news-page-prev');
+    const next = wrapper.querySelector('.news-page-next');
+    const numbers = wrapper.querySelector('.news-page-numbers');
+    const status = wrapper.querySelector('.news-page-status');
+
+    const perPage = 10;
+    const totalPages = Math.ceil(cards.length / perPage);
+    let currentPage = 1;
+
+    if (totalPages <= 1) {
+      wrapper.querySelector('.news-pagination').hidden = true;
+      status.textContent = '';
+      return;
+    }
+
+    function showPage(page) {
+      currentPage = page;
+
+      cards.forEach(function (card, index) {
+        card.hidden = !(
+          index >= (page - 1) * perPage &&
+          index < page * perPage
+        );
+      });
+
+      prev.disabled = page === 1;
+      next.disabled = page === totalPages;
+      numbers.replaceChildren();
+
+      for (let i = 1; i <= totalPages; i++) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = i;
+        button.className = 'news-page-number';
+
+        if (i === page) {
+          button.classList.add('active');
+          button.setAttribute('aria-current', 'page');
+        }
+
+        button.addEventListener('click', function () {
+          showPage(i);
+        });
+
+        numbers.appendChild(button);
+      }
+
+      const start = (page - 1) * perPage + 1;
+      const end = Math.min(page * perPage, cards.length);
+      status.textContent =
+        'Showing news ' + start + '–' + end +
+        ' of ' + cards.length;
+
+      wrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    prev.addEventListener('click', function () {
+      if (currentPage > 1) showPage(currentPage - 1);
+    });
+
+    next.addEventListener('click', function () {
+      if (currentPage < totalPages) showPage(currentPage + 1);
+    });
+
+    showPage(1);
+  });
+});
+</script>
