@@ -1,0 +1,50 @@
+name: Update publications
+
+on:
+  schedule:
+    # Every Monday at 12:17 UTC
+    - cron: "17 12 * * 1"
+
+  # Allows you to run it manually from GitHub Actions.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements-publications.txt
+
+      - name: Fetch and update publications
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python scripts/update_publications.py
+
+      - name: Commit updated bibliography
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -f _bibliography/auto_papers.bib ]; then
+            git add _bibliography/auto_papers.bib
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No bibliography changes to commit."
+          else
+            git commit -m "Update automated publications"
+            git push
+          fi
