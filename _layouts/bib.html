@@ -1,0 +1,30 @@
+---
+---
+
+{{ reference }}
+
+{% assign doi_value = entry.doi
+  | remove_first: "https://doi.org/"
+  | remove_first: "http://doi.org/"
+  | remove_first: "doi:"
+%}
+
+{% if entry.doi or entry.url %}
+  <span class="publication-links">
+    {% if entry.doi %}
+      <a
+        href="https://doi.org/{{ doi_value | escape }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >DOI</a>
+    {% endif %}
+
+    {% if entry.url %}
+      <a
+        href="{{ entry.url | escape }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Paper</a>
+    {% endif %}
+  </span>
+{% endif %}
