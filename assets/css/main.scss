@@ -376,6 +376,11 @@ $max-content-width: {{ site.max_width }};
   color: #000;
 }
 
+html[data-theme="dark"] .person-name,
+html[data-theme="dark"] .person-position {
+color: #fff;
+}
+
 .person-department {
   font-size: 0.88rem;
   line-height: 1.4;
