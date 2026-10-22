@@ -199,10 +199,12 @@ $max-content-width: {{ site.max_width }};
 }
 
 .ai2lab-all-news .ai2lab-news-image {
+  display: block;
   width: 75%;
-  max-width: 500px;
-  height: 280px;
+  max-width: 400px;
+  height: 180px;
   object-fit: cover;
+  object-position: center;
   margin: 0 auto;
 }
 
