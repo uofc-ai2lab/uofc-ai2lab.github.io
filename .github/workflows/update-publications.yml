@@ -30,7 +30,7 @@ jobs:
       - name: Fetch and update publications
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: python scripts/update_publications.py
+        run: python _scripts/update_publications.py
 
       - name: Commit updated bibliography
         run: |
