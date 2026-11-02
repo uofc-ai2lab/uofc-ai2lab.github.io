@@ -1,6 +1,6 @@
 professors:
-  - name: "Professor 1"
-    openalex_id: ""
+  - name: "Dr. Mariana Bento"
+    openalex_id: "A5083770219"
 
-  - name: "Professor 2"
-    openalex_id: ""
+  - name: "Dr. Roberto Souza"
+    openalex_id: "A5034139388"
