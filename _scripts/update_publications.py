@@ -1,7 +1,9 @@
+
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 import html
+import json
 import os
 import re
 import time
@@ -9,31 +11,22 @@ import time
 import bibtexparser
 import yaml
 from bibtexparser.bibdatabase import BibDatabase
-from bibtexparser.bparser import BibTexParser
 from bibtexparser.bwriter import BibTexWriter
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_FILE = ROOT / "_scripts" / "publication_config.yml"
-MANUAL_BIB = ROOT / "_bibliography" / "paper.bib"
 AUTO_BIB = ROOT / "_bibliography" / "auto_papers.bib"
 
 API_URL = "https://api.openalex.org/works"
 PER_PAGE = 100
 
 
-def load_bib(path):
-    """Load a BibTeX file, or return an empty database."""
-    db = BibDatabase()
-
-    if not path.exists():
-        return db
-
-    parser = BibTexParser(common_strings=True)
-    return bibtexparser.loads(
-        path.read_text(encoding="utf-8"),
-        parser=parser,
-    )
+def normalize_author_id(value):
+    """Accept an OpenAlex author ID or profile URL."""
+    value = (value or "").strip().rstrip("/")
+    match = re.search(r"(A\d+)$", value)
+    return match.group(1) if match else ""
 
 
 def clean_doi(value):
@@ -61,22 +54,14 @@ def normalize_title(value):
     return re.sub(r"[^a-z0-9]", "", value.lower())
 
 
-def entry_doi(entry):
-    return clean_doi(entry.get("doi", ""))
-
-
-def entry_title(entry):
-    return normalize_title(entry.get("title", ""))
-
-
 def is_duplicate(candidate, existing_entries):
-    """Match DOI first; use title when either record lacks a DOI."""
-    doi = entry_doi(candidate)
-    title = entry_title(candidate)
+    """Identify duplicate works using DOI or title."""
+    doi = clean_doi(candidate.get("doi", ""))
+    title = normalize_title(candidate.get("title", ""))
 
     for existing in existing_entries:
-        other_doi = entry_doi(existing)
-        other_title = entry_title(existing)
+        other_doi = clean_doi(existing.get("doi", ""))
+        other_title = normalize_title(existing.get("title", ""))
 
         if doi and other_doi and doi == other_doi:
             return True
@@ -89,72 +74,76 @@ def is_duplicate(candidate, existing_entries):
     return False
 
 
-def normalize_author_id(value):
-    """Accept an OpenAlex author ID or profile URL."""
-    value = (value or "").strip()
-    match = re.search(r"(A\d+)$", value)
-    return match.group(1) if match else ""
-
-
 def fetch_author_works(author_id, api_key):
-    """Retrieve works associated with one OpenAlex author."""
+    """Retrieve all indexed works for one author using cursor pagination."""
     all_works = []
-    page = 1
+    cursor = "*"
+    seen_cursors = set()
 
-    while True:
+    while cursor:
+        if cursor in seen_cursors:
+            raise RuntimeError(
+                f"Repeated pagination cursor for {author_id}. "
+                "Stopping to avoid incomplete retrieval."
+            )
+
+        seen_cursors.add(cursor)
+
         params = {
-            "filter": f"author.id:{author_id}",
+            "filter": f"authorships.author.id:{author_id}",
             "per_page": PER_PAGE,
-            "page": page,
+            "cursor": cursor,
         }
 
         if api_key:
             params["api_key"] = api_key
 
         url = f"{API_URL}?{urlencode(params)}"
+
         request = Request(
             url,
-            headers={"User-Agent": "AI2Lab-Publication-Sync/1.0"},
+            headers={
+                "User-Agent": "AI2Lab-Publication-Sync/1.0"
+            },
         )
 
-        with urlopen(request, timeout=60) as response:
-            import json
-            data = json.loads(response.read().decode("utf-8"))
-
-        works = data.get("results", [])
-        if not works:
-            break
-
-        all_works.extend(works)
-
-        total = data.get("meta", {}).get("count", 0)
-
-        # Avoid silently generating an incomplete bibliography.
-        if total > 10_000:
-            raise RuntimeError(
-                f"Author {author_id} has {total} works. "
-                "This script's page-based retrieval limit was exceeded."
+        with urlopen(request, timeout=90) as response:
+            data = json.loads(
+                response.read().decode("utf-8")
             )
 
-        if page * PER_PAGE >= total or len(works) < PER_PAGE:
+        works = data.get("results", [])
+        all_works.extend(works)
+
+        next_cursor = data.get("meta", {}).get("next_cursor")
+
+        print(
+            f"  Retrieved {len(all_works)} works so far "
+            f"for {author_id}..."
+        )
+
+        if not works or not next_cursor:
             break
 
-        page += 1
+        cursor = next_cursor
         time.sleep(0.2)
 
     return all_works
 
 
 def work_to_entry(work):
-    """Convert an OpenAlex work to a BibTeX entry."""
+    """Convert an OpenAlex work into a BibTeX entry."""
     title = work.get("title") or work.get("display_name")
+
     if not title:
         return None
 
     authors = []
+
     for authorship in work.get("authorships", []):
         author = authorship.get("author") or {}
         name = author.get("display_name")
+
         if name:
             authors.append(name)
 
@@ -169,13 +158,14 @@ def work_to_entry(work):
 
     primary_source = primary.get("source") or {}
     oa_source = open_access.get("source") or {}
+
     venue = (
         primary_source.get("display_name")
         or oa_source.get("display_name")
         or ""
     )
 
-    # Prefer an open-access location; otherwise use the primary location.
+    # Prefer an open-access landing page or PDF.
     paper_url = (
         open_access.get("landing_page_url")
         or open_access.get("pdf_url")
@@ -184,21 +174,24 @@ def work_to_entry(work):
         or ""
     )
 
-    doi_url = f"https://doi.org/{doi}" if doi else ""
-
     entry_type_map = {
         "article": "article",
         "book": "book",
         "book-chapter": "incollection",
         "proceedings-article": "inproceedings",
     }
+
     entry_type = entry_type_map.get(
         work.get("type", ""), "misc"
     )
 
     first_author = authors[0].split()[-1]
-    surname = re.sub(r"[^A-Za-z0-9]", "", first_author) or "paper"
+    surname = re.sub(
+        r"[^A-Za-z0-9]", "", first_author
+    ) or "paper"
+
     year_text = str(year) if year else "nd"
+
     slug = re.sub(
         r"[^a-z0-9]+", "", title.lower()
     )[:30] or "publication"
@@ -216,8 +209,7 @@ def work_to_entry(work):
     if doi:
         entry["doi"] = doi
 
-    # Avoid storing a redundant URL when it is just the DOI link.
-    if paper_url and paper_url.rstrip("/") != doi_url.rstrip("/"):
+    if paper_url:
         entry["url"] = paper_url
 
     if venue:
@@ -227,83 +219,120 @@ def work_to_entry(work):
             entry["booktitle"] = venue
 
     biblio = work.get("biblio") or {}
+
     for source_field, bib_field in (
         ("volume", "volume"),
         ("issue", "number"),
-        ("first_page", "pages"),
     ):
         value = biblio.get(source_field)
+
         if value:
             entry[bib_field] = str(value)
 
     first_page = biblio.get("first_page")
     last_page = biblio.get("last_page")
+
     if first_page and last_page:
         entry["pages"] = f"{first_page}--{last_page}"
+    elif first_page:
+        entry["pages"] = str(first_page)
 
     return entry
 
 
 def main():
+    if not CONFIG_FILE.exists():
+        raise FileNotFoundError(
+            f"Configuration file not found: {CONFIG_FILE}"
+        )
+
     config = yaml.safe_load(
         CONFIG_FILE.read_text(encoding="utf-8")
     ) or {}
 
     professors = config.get("professors", [])
-    author_ids = [
-        normalize_author_id(p.get("openalex_id", ""))
-        for p in professors
-    ]
-    author_ids = list(dict.fromkeys(
-        author_id for author_id in author_ids if author_id
-    ))
 
-    if not author_ids:
-        print(
-            "No OpenAlex profile IDs configured. "
-            "Nothing changed; add IDs to publication_config.yml later."
+    if not professors:
+        raise RuntimeError(
+            "No professors configured in publication_config.yml."
         )
-        return
+
+    configured_authors = []
+
+    for professor in professors:
+        author_id = normalize_author_id(
+            professor.get("openalex_id", "")
+        )
+
+        if not author_id:
+            raise RuntimeError(
+                f"Invalid or missing OpenAlex ID for "
+                f"{professor.get('name', 'an unnamed professor')}."
+            )
+
+        configured_authors.append({
+            "name": professor.get("name", author_id),
+            "id": author_id,
+        })
+
+    # Avoid retrieving the same profile twice.
+    unique_authors = []
+    seen_author_ids = set()
+
+    for professor in configured_authors:
+        if professor["id"] not in seen_author_ids:
+            unique_authors.append(professor)
+            seen_author_ids.add(professor["id"])
 
     api_key = os.environ.get("OPENALEX_API_KEY", "")
 
-    manual_db = load_bib(MANUAL_BIB)
-    previous_auto_db = load_bib(AUTO_BIB)
+    if not api_key:
+        print(
+            "Warning: OPENALEX_API_KEY is not set. "
+            "The request will use unauthenticated access."
+        )
 
-    manual_entries = manual_db.entries
-    used_entries = list(manual_entries)
-
-    # Retain earlier automated records, except ones now covered manually.
-    retained_auto = []
-    for entry in previous_auto_db.entries:
-        if not is_duplicate(entry, manual_entries):
-            retained_auto.append(entry)
-            used_entries.append(entry)
-
-    fetched_works = []
+    all_works = []
     seen_work_ids = set()
 
-    for author_id in author_ids:
-        print(f"Fetching publications for {author_id}...")
+    # Fetch publications for every configured professor.
+    for professor in unique_authors:
+        author_id = professor["id"]
+
+        print(
+            f"\nFetching publications for "
+            f"{professor['name']} ({author_id})..."
+        )
+
         works = fetch_author_works(author_id, api_key)
+
+        # Fail safely instead of replacing the bibliography
+        # if a configured author returns no records.
+        if not works:
+            raise RuntimeError(
+                f"No works were returned for {author_id}. "
+                "The existing bibliography was not changed."
+            )
 
         for work in works:
             work_id = work.get("id")
+
             if work_id and work_id in seen_work_ids:
                 continue
+
             if work_id:
                 seen_work_ids.add(work_id)
 
-            fetched_works.append(work)
+            all_works.append(work)
 
+    # Convert works and remove duplicates.
     new_entries = []
-    used_keys = {
-        entry.get("ID", "").lower()
-        for entry in used_entries
-    }
+    used_entries = []
+    used_keys = set()
 
-    for work in fetched_works:
+    for work in all_works:
         entry = work_to_entry(work)
+
         if not entry:
             continue
 
@@ -320,11 +349,19 @@ def main():
 
         entry["ID"] = key
         used_keys.add(key.lower())
+
         used_entries.append(entry)
         new_entries.append(entry)
 
+    if not new_entries:
+        raise RuntimeError(
+            "No valid BibTeX entries were generated. "
+            "The existing bibliography was not changed."
+        )
+
+    # Generate a completely fresh bibliography.
     output_db = BibDatabase()
-    output_db.entries = retained_auto + new_entries
+    output_db.entries = new_entries
 
     writer = BibTexWriter()
     writer.indent = "  "
@@ -337,12 +374,18 @@ def main():
     )
 
     AUTO_BIB.parent.mkdir(parents=True, exist_ok=True)
-    AUTO_BIB.write_text(output_text, encoding="utf-8")
 
-    print(f"Profiles checked: {len(author_ids)}")
-    print(f"Works retrieved: {len(fetched_works)}")
-    print(f"New entries added: {len(new_entries)}")
-    print(f"Generated: {AUTO_BIB}")
+    AUTO_BIB.write_text(
+        output_text,
+        encoding="utf-8"
+    )
+
+    print("\n========== PUBLICATION UPDATE SUMMARY ==========")
+    print(f"Profiles checked: {len(unique_authors)}")
+    print(f"Works retrieved: {len(all_works)}")
+    print(f"Unique BibTeX entries: {len(new_entries)}")
+    print(f"Generated file: {AUTO_BIB}")
+    print("================================================")
 
 
 if __name__ == "__main__":
