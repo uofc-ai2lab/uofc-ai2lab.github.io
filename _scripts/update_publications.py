@@ -14,7 +14,7 @@ from bibtexparser.bwriter import BibTexWriter
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIG_FILE = ROOT / "scripts" / "publication_config.yml"
+CONFIG_FILE = ROOT / "_scripts" / "publication_config.yml"
 MANUAL_BIB = ROOT / "_bibliography" / "paper.bib"
 AUTO_BIB = ROOT / "_bibliography" / "auto_papers.bib"
 
