@@ -118,6 +118,21 @@ hide_title: true
           </div>
         </div>
 
+<!-- Alumni: Peyman Tahghighi -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/peyman_tahghighi.jpeg' | relative_url }}" alt="Peyman Tahghighi"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Peyman Tahghighi</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="[https://scholar.google.com/citations?user=GykKBo4AAAAJ&hl=en](https://scholar.google.com/citations?user=KletYw0AAAAJ&hl=en)" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/peymantahghighi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
 
         <!-- Alumni: Alexandre Lopes -->
         <div class="alumni-member">
@@ -148,7 +163,21 @@ hide_title: true
 
       <div class="alumni-list">
 
-        <!-- Alumni: Mansi Singhal -->
+<!-- Alumni: Stephen Moore -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/stephen_moore.jpg' | relative_url }}" alt="Stephen Moore"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Stephen Moore</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=SMnlftkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+<!-- Alumni: Mansi Singhal -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mansi_Singhal.png' | relative_url }}" alt="Mansi Singhal"></div>
 
