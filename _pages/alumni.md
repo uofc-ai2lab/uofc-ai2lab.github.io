@@ -9,19 +9,18 @@ hide_title: true
 
 <div class="alumni-page">
 
-  <aside class="alumni-sidebar">
-    <button class="alumni-tab active" data-category="postdocs">Former Postdoctoral Fellows</button>
-    <button class="alumni-tab" data-category="phd">Former PhD Students</button>
-    <button class="alumni-tab" data-category="msc">Former MSc Students</button>
-    <button class="alumni-tab" data-category="interns">Former Summer Interns</button>
+  <aside class="alumni-sidebar" role="tablist" aria-label="Alumni categories">
+    <button type="button" class="alumni-tab active" role="tab" id="tab-postdocs" aria-controls="panel-postdocs" aria-selected="true" data-category="postdocs">Former Postdoctoral Fellows</button>
+    <button type="button" class="alumni-tab" role="tab" id="tab-phd" aria-controls="panel-phd" aria-selected="false" data-category="phd">Former PhD Students</button>
+    <button type="button" class="alumni-tab" role="tab" id="tab-msc" aria-controls="panel-msc" aria-selected="false" data-category="msc">Former MSc Students</button>
+    <button type="button" class="alumni-tab" role="tab" id="tab-interns" aria-controls="panel-interns" aria-selected="false" data-category="interns">Former Undergraduate &amp; Summer Researchers</button>
   </aside>
 
 
- 
   <div class="alumni-content">
-    
+
     <!-- =====Former Postdoctoral Fellows===== -->
-    <section class="alumni-category-panel active" data-category="postdocs">
+    <section class="alumni-category-panel active" role="tabpanel" id="panel-postdocs" aria-labelledby="tab-postdocs" data-category="postdocs">
       <h2>Former Postdoctoral Fellows</h2>
 
       <div class="alumni-list">
@@ -77,16 +76,12 @@ hide_title: true
     </section>
 
 
-
-
-
-
     <!-- =====Former PhD Students===== -->
-    <section class="alumni-category-panel" data-category="phd">
+    <section class="alumni-category-panel" role="tabpanel" id="panel-phd" aria-labelledby="tab-phd" data-category="phd">
       <h2>Former PhD Students</h2>
 
       <div class="alumni-list">
-      
+
         <!-- Alumni: Hanna Bugler -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Hanna_Bugler.png' | relative_url }}" alt="Hanna Bugler"></div>
@@ -96,7 +91,6 @@ hide_title: true
             <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
 
             <div class="alumni-links">
-              <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
               <a href="https://www.linkedin.com/in/hanna-b-4b013414a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
@@ -118,7 +112,8 @@ hide_title: true
           </div>
         </div>
 
-<!-- Alumni: Peyman Tahghighi -->
+
+        <!-- Alumni: Peyman Tahghighi -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/peyman_tahghighi.jpeg' | relative_url }}" alt="Peyman Tahghighi"></div>
 
@@ -127,7 +122,7 @@ hide_title: true
             <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
 
             <div class="alumni-links">
-              <a href="[https://scholar.google.com/citations?user=GykKBo4AAAAJ&hl=en](https://scholar.google.com/citations?user=KletYw0AAAAJ&hl=en)" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://scholar.google.com/citations?user=KletYw0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
               <a href="https://www.linkedin.com/in/peymantahghighi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
@@ -149,21 +144,17 @@ hide_title: true
           </div>
         </div>
 
-
       </div>
     </section>
 
 
-
-
-
     <!-- =====Former MSc Students===== -->
-    <section class="alumni-category-panel" data-category="msc">
+    <section class="alumni-category-panel" role="tabpanel" id="panel-msc" aria-labelledby="tab-msc" data-category="msc">
       <h2>Former MSc Students</h2>
 
       <div class="alumni-list">
 
-<!-- Alumni: Stephen Moore -->
+        <!-- Alumni: Stephen Moore -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/stephen_moore.jpg' | relative_url }}" alt="Stephen Moore"></div>
 
@@ -173,12 +164,13 @@ hide_title: true
 
             <div class="alumni-links">
               <a href="https://scholar.google.com/citations?user=SMnlftkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href="https://www.linkedin.com/in/stephen-moore-98518b1b7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
-<!-- Alumni: Mansi Singhal -->
+
+
+        <!-- Alumni: Mansi Singhal -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mansi_Singhal.png' | relative_url }}" alt="Mansi Singhal"></div>
 
@@ -188,11 +180,10 @@ hide_title: true
 
             <div class="alumni-links">
               <a href="https://scholar.google.com/citations?user=QXwhhCoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Brooke Kindleman -->
         <div class="alumni-member">
@@ -208,7 +199,7 @@ hide_title: true
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Zeyad Khaled Samir -->
         <div class="alumni-member">
@@ -224,7 +215,7 @@ hide_title: true
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Saad Ashraf -->
         <div class="alumni-member">
@@ -240,7 +231,7 @@ hide_title: true
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Natalia Dubljevic -->
         <div class="alumni-member">
@@ -256,7 +247,7 @@ hide_title: true
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Mahsa Dibaji -->
         <div class="alumni-member">
@@ -272,7 +263,7 @@ hide_title: true
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Abbas Omidi -->
         <div class="alumni-member">
@@ -288,39 +279,19 @@ hide_title: true
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: José Carlos Cazarin Filho -->
+        <!-- NOTE: rename the image file to Jose_Carlos_Cazarin_Filho.png (no accent) -->
         <div class="alumni-member">
-          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/José_Carlos_Cazarin_Filho.png' | relative_url }}" alt="José Carlos Cazarin Filho"></div>
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Jose_Carlos_Cazarin_Filho.png' | relative_url }}" alt="José Carlos Cazarin Filho"></div>
 
           <div class="alumni-info">
             <h3 class="alumni-name">José Carlos Cazarin Filho</h3>
             <div class="alumni-dept">Electrical and Software Engineering (University of Calgary)</div>
-
-            <div class="alumni-links">
-              <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
           </div>
         </div>
-        
 
-        <!-- Alumni: Yeganeh Bahari -->
-        <div class="alumni-member">
-          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Yeganeh_Bahari.jpg' | relative_url }}" alt="Yeganeh Bahari"></div>
-
-          <div class="alumni-info">
-            <h3 class="alumni-name">Yeganeh Bahari</h3>
-            <div class="alumni-dept">Electrical and Software Engineering (University of Calgary)</div>
-
-            <div class="alumni-links">
-              <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-        
 
         <!-- Alumni: Gabriel Dias -->
         <div class="alumni-member">
@@ -337,7 +308,7 @@ hide_title: true
           </div>
         </div>
 
-        
+
         <!-- Alumni: Neha Gianchandani -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Neha_Gianchandani.jpg' | relative_url }}" alt="Neha Gianchandani"></div>
@@ -353,7 +324,7 @@ hide_title: true
           </div>
         </div>
 
-        
+
         <!-- Alumni: Anik Das -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Anik_Das.jpg' | relative_url }}" alt="Anik Das"></div>
@@ -379,12 +350,11 @@ hide_title: true
             <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
 
             <div class="alumni-links">
-              <a href="" target="_blank" rel="noopener noreferrer">Google Scholar</a>
               <a href="https://www.linkedin.com/in/rodrigo-pommot-berto/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
-        
+
 
         <!-- Alumni: Youssef Beauferris -->
         <div class="alumni-member">
@@ -401,7 +371,7 @@ hide_title: true
           </div>
         </div>
 
-      
+
         <!-- Alumni: Parisa Saat -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Parisa_Saat.jpg' | relative_url }}" alt="Parisa Saat"></div>
@@ -417,38 +387,32 @@ hide_title: true
           </div>
         </div>
 
-
       </div>
     </section>
 
 
-
-
-
-
-
-    <!-- =====Former Summer Interns===== -->
-    <section class="alumni-category-panel" data-category="interns">
-      <h2>Former Summer Interns</h2>
+    <!-- =====Former Undergraduate & Summer Researchers===== -->
+    <section class="alumni-category-panel" role="tabpanel" id="panel-interns" aria-labelledby="tab-interns" data-category="interns">
+      <h2>Former Undergraduate &amp; Summer Researchers</h2>
 
       <div class="alumni-simple-list">
-        <div class="alumni-simple-item"><strong>Andrea Johnson</strong><span>Mitacs Globallink Intern — Summer 2026</span></div>
+        <div class="alumni-simple-item"><strong>Andrea Johnson</strong><span>Mitacs Globalink Intern — Summer 2026</span></div>
         <div class="alumni-simple-item"><strong>Maya Wadhera</strong><span>University of Calgary — Summer 2026</span></div>
         <div class="alumni-simple-item"><strong>Caitlyn Lee</strong><span>University of Calgary — Summer 2025</span></div>
-        <div class="alumni-simple-item"><strong>Natalia Romero</strong><span>MITACS exchange student — Summer 2025</span></div>
+        <div class="alumni-simple-item"><strong>Natalia Romero</strong><span>Mitacs exchange student — Summer 2025</span></div>
         <div class="alumni-simple-item"><strong>Aminreza Abbasi</strong><span>Summer Student — Summer 2024</span></div>
         <div class="alumni-simple-item"><strong>Daniel Lee</strong><span>Summer Student — Summer 2024</span></div>
-        <div class="alumni-simple-item"><strong>Adrian Thereparambil</strong><span>MITACS exchange student — Summer 2024</span></div>
-        <div class="alumni-simple-item"><strong>Poulami Basu</strong><span>MITACS exchange student — Summer 2024</span></div>
-        <div class="alumni-simple-item"><strong>Swastik Mukherjee</strong><span>MITACS exchange student — Summer 2023</span></div>
-        <div class="alumni-simple-item"><strong>Yogesh Chawla</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Adrian Thereparambil</strong><span>Mitacs exchange student — Summer 2024</span></div>
+        <div class="alumni-simple-item"><strong>Poulami Basu</strong><span>Mitacs exchange student — Summer 2024</span></div>
+        <div class="alumni-simple-item"><strong>Swastik Mukherjee</strong><span>Mitacs exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Yogesh Chawla</strong><span>Mitacs exchange student — Summer 2023</span></div>
         <div class="alumni-simple-item"><strong>Shannon Wong</strong><span>Summer Student — Summer 2023</span></div>
-        <div class="alumni-simple-item"><strong>Mansi Singhal</strong><span>MITACS exchange student — Summer 2023</span></div>
-        <div class="alumni-simple-item"><strong>Timothy Thomas George</strong><span>MITACS exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Mansi Singhal</strong><span>Mitacs exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Timothy Thomas George</strong><span>Mitacs exchange student — Summer 2023</span></div>
         <div class="alumni-simple-item"><strong>Armin Sandhu</strong><span>Summer Student — Summer 2023</span></div>
-        <div class="alumni-simple-item"><strong>Akhil Nair</strong><span>MITACS exchange student — Summer 2023</span></div>
-        <div class="alumni-simple-item"><strong>Muhammad Athar Ganaie</strong><span>MITACS exchange student — Summer 2022</span></div>
-        <div class="alumni-simple-item"><strong>Muhammad Yusuf Hassan</strong><span>MITACS exchange student — Summer 2022</span></div>
+        <div class="alumni-simple-item"><strong>Akhil Nair</strong><span>Mitacs exchange student — Summer 2023</span></div>
+        <div class="alumni-simple-item"><strong>Muhammad Athar Ganaie</strong><span>Mitacs exchange student — Summer 2022</span></div>
+        <div class="alumni-simple-item"><strong>Muhammad Yusuf Hassan</strong><span>Mitacs exchange student — Summer 2022</span></div>
         <div class="alumni-simple-item"><strong>Daniel Austin</strong><span>Summer Student — Summer 2022</span></div>
         <div class="alumni-simple-item"><strong>Keilan Pieper</strong><span>BME Undergraduate thesis — Fall 2021 &amp; Winter 2022</span></div>
         <div class="alumni-simple-item"><strong>Jeffrey Roszell</strong><span>BME Undergraduate thesis — Fall 2021 &amp; Winter 2022</span></div>
@@ -465,13 +429,8 @@ hide_title: true
       </div>
     </section>
 
-    
   </div>
 </div>
-
-
-
-
 
 
 <script>
@@ -481,11 +440,11 @@ hide_title: true
 
     tabs.forEach(function (tab) {
       tab.addEventListener("click", function () {
-
         const category = this.dataset.category;
 
         tabs.forEach(function (item) {
           item.classList.remove("active");
+          item.setAttribute("aria-selected", "false");
         });
 
         panels.forEach(function (panel) {
@@ -493,6 +452,7 @@ hide_title: true
         });
 
         this.classList.add("active");
+        this.setAttribute("aria-selected", "true");
 
         const selectedPanel = document.querySelector(
           '.alumni-category-panel[data-category="' + category + '"]'
@@ -501,7 +461,6 @@ hide_title: true
         if (selectedPanel) {
           selectedPanel.classList.add("active");
         }
-        
       });
     });
   });
