@@ -174,6 +174,7 @@ hide_title: true
             <div class="alumni-links">
               <a href="https://scholar.google.com/citations?user=SMnlftkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
               <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/stephen-moore-98518b1b7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </div>
