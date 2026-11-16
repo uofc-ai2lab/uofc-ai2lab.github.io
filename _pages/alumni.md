@@ -231,8 +231,35 @@ hide_title: true
             </div>
           </div>
         </div>
+ <!-- Alumni: Ana Clara Caznok -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/ana_clara_caznok.jpeg' | relative_url }}" alt="Ana Clara Caznok"></div>
 
+          <div class="alumni-info">
+            <h3 class="alumni-name">Ana Clara Caznok</h3>
+            <div class="alumni-dept">Visiting Student, Electrical and Software Engineering (University of Calgary)</div>
 
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=yuxbGBwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/ana-caznok-silveira-111013253/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+ <!-- Alumni: Wesna Araujo -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/wesna_araujo.jpeg' | relative_url }}" alt="Wesna Araujo"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Wesna Araujo</h3>
+            <div class="alumni-dept">Visiting Student, Electrical and Software Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://www.linkedin.com/in/wesnasimone/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
         <!-- Alumni: Natalia Dubljevic -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Natalia_Dubljevic.jpg' | relative_url }}" alt="Natalia Dubljevic"></div>
@@ -299,7 +326,7 @@ hide_title: true
 
           <div class="alumni-info">
             <h3 class="alumni-name">Gabriel Dias</h3>
-            <div class="alumni-dept">Visiting Student, Biomedical Engineering (University of Calgary)</div>
+            <div class="alumni-dept">Visiting Student, Electrical and Software Engineering (University of Calgary)</div>
 
             <div class="alumni-links">
               <a href="https://scholar.google.com/citations?user=FQIYLZYAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer">Google Scholar</a>
