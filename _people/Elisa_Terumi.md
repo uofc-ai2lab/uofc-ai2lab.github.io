@@ -7,7 +7,7 @@ lastname: Rubel Schneider
 description: Postdoctoral Fellow
 department: Electrical and Software Engineering
 
-img: assets/img/people/elisa_terumi.jpg
+img: assets/img/people/elisa_terumi.png
 
 redirect: https://scholar.google.com/citations?user=iT84u2YAAAAJ&hl=pt-BR
 linkedin_username: eisa-terumi
