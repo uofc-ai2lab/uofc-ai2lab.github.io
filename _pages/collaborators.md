@@ -1,8 +1,8 @@
 
 ---
 layout: page
-title: Collaborators
 permalink: /collaborators/
+title: Collaborators
 description: Our research collaborators and academic partners.
 nav: true
 nav_order: 7
