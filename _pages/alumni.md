@@ -25,6 +25,22 @@ hide_title: true
 
       <div class="alumni-list">
 
+      <!-- Alumni: Pedro Paiva -->
+        <div class="alumni-member">
+          <div class="alumni-photo"><img src="{{ '/assets/img/alumni/pedro_paiva.jpg' | relative_url }}" alt="Pedro Paiva"></div>
+
+          <div class="alumni-info">
+            <h3 class="alumni-name">Pedro Paiva</h3>
+            <div class="alumni-dept">Biomedical Engineering (University of Calgary)</div>
+
+            <div class="alumni-links">
+              <a href="https://scholar.google.com/citations?user=mOJyKwoAAAAJ&hl=pt-BR" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/pedro-vv-paiva/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+
         <!-- Alumni: Mumu Aktar -->
         <div class="alumni-member">
           <div class="alumni-photo"><img src="{{ '/assets/img/alumni/Mumu_Aktar.jpg' | relative_url }}" alt="Mumu Aktar"></div>
