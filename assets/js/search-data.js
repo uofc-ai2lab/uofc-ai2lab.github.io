@@ -1147,6 +1147,11 @@ ninja.data = [{
           description: "MSc Student",
           section: "People",handler: () => {
               window.location.href = "/people/Artemy_Gavrilov.html";
+            },},{id: "people-elisa-terumi",
+          title: 'Elisa_terumi',
+          description: "Postdoctoral Fellow",
+          section: "People",handler: () => {
+              window.location.href = "/people/Elisa_Terumi.html";
             },},{id: "people-farzaneh-dehghani",
           title: 'Farzaneh_dehghani',
           description: "PhD Student",
