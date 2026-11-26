@@ -1162,11 +1162,6 @@ ninja.data = [{
           description: "MSc Student",
           section: "People",handler: () => {
               window.location.href = "/people/Joanna_Lin.html";
-            },},{id: "people-pedro-paiva",
-          title: 'Pedro_paiva',
-          description: "Postdoctoral Fellow",
-          section: "People",handler: () => {
-              window.location.href = "/people/Pedro_Paiva.html";
             },},{id: "people-sussane-schmid",
           title: 'Sussane_schmid',
           description: "Postdoctoral Fellow",
